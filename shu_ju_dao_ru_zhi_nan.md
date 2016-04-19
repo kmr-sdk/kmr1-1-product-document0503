@@ -38,11 +38,17 @@
 　　HDFS上传到KS3
   
   <table><tr><td bgcolor=#7FFFD4>这里的背景色是：Aquamarine， 十六进制颜色值：#7FFFD4， rgb(127, 255, 212)</td></tr></table>  
+  
+  | 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |
+
 
 
 
 　　KS3拷贝到HDFS
   
-hadoop distcp ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
+hadoop distcp
+ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
 Discp的更多用法请参考 DisCp Guide
   
