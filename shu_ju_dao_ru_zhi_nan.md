@@ -35,7 +35,7 @@
 　　3.执行以下格式命令：hadoop distcp <源路径>  <目标路径><br>
 　　示例：
   
-　　HDFS上传到KS3
+　**　HDFS上传到KS3**
  
  ```
  　　hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbarcket/kmr/
