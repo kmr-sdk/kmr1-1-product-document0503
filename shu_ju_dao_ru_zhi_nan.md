@@ -30,9 +30,9 @@
   
 　　操作步骤:
   
-1.通过SSH连接到主节点，请参考3.7 SSH连接指南
-2.输入命令： su hadoop 切换到hadoop用户
-3.执行以下格式命令：hadoop distcp <源路径>  <目标路径>
+　　1.通过SSH连接到主节点，请参考3.7 SSH连接指南<br>
+　　2.输入命令： su hadoop 切换到hadoop用户<br>
+　　3.执行以下格式命令：hadoop distcp <源路径>  <目标路径>
 示例：
 HDFS上传到KS3
 hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbarcket/kmr/
