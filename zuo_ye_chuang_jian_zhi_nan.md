@@ -6,3 +6,5 @@
  *  [添加Custom JAR作业](customjar.md)
 
  *  [添加Streaming作业](streaming.md)
+
+ *  [添加Hive作业](hive.md)
