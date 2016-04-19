@@ -17,7 +17,7 @@
 | **Jar文件地址** | 输入Spark应用程序的存储路径，如使用KS3存储它们，该路径值的形式应该是<br>**ks3://BucketName/path/SparkJar**|
 | **MainClass** | 指定主程序的类名|
 | **Spark-submit选项** | 输入spark-submit选项
-详情请参考 https://spark.apache.org/docs/1.5.2/submitting-applications.html|
+详情请参考<br>https://spark.apache.org/docs/1.5.2/submitting-applications.html|
 | **失败后操作** | 当作业执行失败后，集群可以根据这里的设置自动执行一些操作<br> **继续：**作业执行失败后，继续执行下一个作业。<br>**取消作业并等待：**作业执行失败后，取消集群中已提交的作业，集群进入等待状态，直到提交下一个作业。<br>**销毁集群：**作业运行失败后，销毁集群。<br>该选项的结果不会受到“集群释放保护”功能影响 | 
 | **参数** | 参数：输入以下指定的参数进行相关的配置：-D key=value指定配置，-p KEY=VALUE指定变量，也可加入自定义参数。输入参数时，只需要输入参数本身字符串即可，用空格分隔，无需参数转义和url encode。|
 
