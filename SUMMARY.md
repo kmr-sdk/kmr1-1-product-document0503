@@ -7,7 +7,7 @@
    * [使用场景](shi_yong_chang_jing.md)
 * [快速入门](chapter1.md)
 * 使用手册
-   * 数据导入指南
+   * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
    * 创建集群
    * 集群操作指南
 * 购买指南
