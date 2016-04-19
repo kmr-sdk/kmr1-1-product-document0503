@@ -47,5 +47,5 @@
 　　hadoop distcp ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
 ```
 
-　　Discp的更多用法请参考 DisCp Guide
+　　Discp的更多用法请参考 [DisCp Guide](http://hadoop.apache.org/docs/stable1/distcp.html)
   
