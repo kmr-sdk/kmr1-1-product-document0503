@@ -13,3 +13,9 @@
   ![数据导入2](./images/sjdr2.png)
   
   
+  
+  （2）进入空间，选择“内容管理”，可以创建目录，或者直接通过浏览器上传文件，超过500M以上的文件可以使用SDK或者工具上传
+KS3 SDK:     https://github.com/ks3sdk
+KS3上传工具 http://www.ksyun.com/doc/art/id/432
+  
+  
