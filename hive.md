@@ -2,9 +2,6 @@
 
 　　Hive 是一种开源数据仓库和分析套件，它在 Hadoop 的基础上运行。Hive 脚本使用类似 SQL 的语言，名为 Hive QL（查询语言），该语言会将SQL语法映射为MapReduce 编程模型，支持典型的数据仓库查询交互。Hive 可避免您以低级别的计算机语言（如 Java）编写 MapReduce 程序这样的复杂工作。KMR提供对Hive的支持。
   
-　　有关hadoop streaming，请参考<br>
-　　http://hadoop.apache.org/docs/r2.6.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/HadoopStreaming.html
-  
 　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和　[查看作业](zuo_ye_xiang_qing.md)
 
 ![streaming](./images/streaming.png)
