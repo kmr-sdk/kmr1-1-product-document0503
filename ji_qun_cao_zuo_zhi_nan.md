@@ -5,9 +5,8 @@
   
  * [创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
 
+ * [创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md)
 
-  
- 创建集群-高级选项
 
   
  查看集群列表
