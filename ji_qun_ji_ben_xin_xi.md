@@ -38,7 +38,7 @@
 classification=<配置文件名>,properties=[<配置项>=<值>]
 例如：<br>
 classification=mapred-site,properties=[mapred.tasktracker.map.tasks.maximum=4]<br>
-目前KMR支持以下配置文件的自定义参数（自定义参数时不需要输入文件扩展名）：
+目前KMR支持以下配置文件的自定义参数（自定义参数时不需要输入文件扩展名）：<br>
 "core-site.xml";"hdfs-site.xml";"mapred-site.xml";
 "yarn-site.xml";"capacity-scheduler.xml";
 "hadoop-env.sh";"httpfs-env.sh";"mapred-env.sh";
