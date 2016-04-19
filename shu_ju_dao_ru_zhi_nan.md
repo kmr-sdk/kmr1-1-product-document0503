@@ -50,5 +50,4 @@
 
 　　Discp的更多用法请参考 [DisCp Guide](http://hadoop.apache.org/docs/stable1/distcp.html)
   
-   [XXXX](#jump)
   
