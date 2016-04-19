@@ -13,3 +13,5 @@
 | **EndPoint** | EndPoint可以在您的VPC和其他KSC服务之间创建私有连接，使用KMR服务必须指定EndPoint. 如果使用自定义VPC，请确认VPC中已创建可用的EndPoint|
 
 　　2.设置集群管理信息
+
+![安全与访问2](./images/aqyfw2.png)
