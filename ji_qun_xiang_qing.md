@@ -14,7 +14,7 @@
   
 　　**配置信息：**列出了平台版本、已安装应用和集群节点的硬件配置信息，点击“展开”超链接，可以看到节点ID，状态，IP地址等更多信息。
   
-　　**管理工具：**Hadoop和Spark等应用具有丰富的原生管理工具，点击各个工具链接，能够直接进入管理界面，进行相关管理和查询。用户通过此接口进入管理工具界面，无需使用SSH Tunnel方式进入。管理工具包括ResourceManager、NameNode、JobHistory、Ganglia、Oozie和Spark，请参考3.7监控指南
+　　**管理工具：**Hadoop和Spark等应用具有丰富的原生管理工具，点击各个工具链接，能够直接进入管理界面，进行相关管理和查询。用户通过此接口进入管理工具界面，无需使用SSH Tunnel方式进入。管理工具包括ResourceManager、NameNode、JobHistory、Ganglia、Oozie和Spark，请参考[监控指南](jian_kong_zhi_nan.md)
   
 　　**集群转正：**测试集群在测试期结束后会自动释放，如需继续使用，请点击页面上方“集群转正”按钮，可以将试用集群转为正式集群，即刻计费
   
