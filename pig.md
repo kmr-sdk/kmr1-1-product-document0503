@@ -1,6 +1,6 @@
 ## 添加Pig作业
 
-　　您可以编写 Java 应用程序，生成 JAR 文件，然后将 JAR 文件上传到集群本地HDFS或者KS3中来处理数据。当执行此操作时，JAR 文件必须包含适用于 Map-Reduce 功能的实现。
+　　Pig 是一种开源 Apache 库，在 Hadoop 的顶层上运行。该库使用名为 Pig Latin 的语言编写的、类似 SQL的命令，并将这些命令转换到 MapReduce 任务中。KMR支持 Apache Pig，此编程框架可用于分析和转换大型数据集。有关 Pig 的详细信息，请转到 http://pig.apache.org/
   
 　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和　[查看作业](zuo_ye_xiang_qing.md)
 
