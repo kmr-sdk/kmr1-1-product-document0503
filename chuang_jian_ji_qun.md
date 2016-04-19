@@ -32,4 +32,4 @@
 
 　　3.配置集群节点
 
-![快速选项３](./images/ksxx３.png)
+![快速选项3](./images/ksxx3.png)
