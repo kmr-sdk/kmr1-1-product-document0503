@@ -9,6 +9,7 @@
 * 使用手册
    * 数据导入指南
    * 创建集群
+   * 集群操作指南
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
 * [API](api.md)
