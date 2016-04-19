@@ -36,8 +36,8 @@
 　　示例：
   
 　　HDFS上传到KS3
-  
-  ```
+ 
+ 　　```
  hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbarcket/kmr/
   ```
   
