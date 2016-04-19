@@ -44,7 +44,7 @@
 　　**KS3拷贝到HDFS**
   
 ```
-hadoop distcp ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
+　　hadoop distcp ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
 ```
  
 
