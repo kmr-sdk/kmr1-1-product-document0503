@@ -11,6 +11,6 @@
  
  * [集群详情](ji_qun_xiang_qing.md)
 
- * 作业详情
+ * [作业详情](zuo_ye_xiang_qing.md)
 
   
