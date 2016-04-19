@@ -10,6 +10,7 @@
    * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
    * [创建集群－快速选项](chuang_jian_ji_qun.md)
    * [集群操作指南](ji_qun_cao_zuo_zhi_nan.md)
+   * 创建集群－高级选项
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
 * [API](api.md)
