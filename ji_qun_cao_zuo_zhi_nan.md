@@ -9,8 +9,8 @@
 
 *  [查看集群列表](cha_kan_ji_qun_lie_biao.md)
  
- * [集群详情](ji_qun_xiang_qing.md)
+* [集群详情](ji_qun_xiang_qing.md)
 
- * [作业详情](zuo_ye_xiang_qing.md)
+* [作业详情](zuo_ye_xiang_qing.md)
 
   
