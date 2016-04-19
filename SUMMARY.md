@@ -7,4 +7,5 @@
    * [使用场景](shi_yong_chang_jing.md)
 * [快速入门](chapter1.md)
 * 使用手册
+* 购买指南
 
