@@ -10,7 +10,7 @@
 
  | 字段 | 操作 |
 | -- | -- |
-| **作业类型** | 选择需要执行的作业类型，这里请选择Streaming |
+| **作业类型** | 选择需要执行的作业类型，这里请选择Hive |
 | **作业名称** | 输入作业名称，长度最多25个字符 |
 | **Mapper地址** | 输入 Map任务可执行命令或脚本的存储路径，如使用KS3存储它们，该路径值的形式应该是：<br>**ks3://BucketName/path/MaperExecutable**|
 | **Reducer地址** | 输入 Reduce任务可执行文件或脚本的存储路径，如使用KS3存储它们，该路径值的形式应该是：<br>**ks3://BucketName/path/ReducerExecutable** |
