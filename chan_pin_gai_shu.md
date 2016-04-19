@@ -8,5 +8,5 @@
   
 　　KMR集群由主节点（Master Node）和若干核心节点（Core Node）、任务节点（Task Node）组成。
     
-  * **主节点**：主要用于集群管理，运行hadoop集群中的管理进程，如namenode、resource manager、jobhistory等。此外，它还会跟踪每个计算作业的执行状态，监控实例的运行状况，为您提供集群访问的入口。1个KMR集群只有1个主节点
+  * **主节点：**主要用于集群管理，运行hadoop集群中的管理进程，如namenode、resource manager、jobhistory等。此外，它还会跟踪每个计算作业的执行状态，监控实例的运行状况，为您提供集群访问的入口。1个KMR集群只有1个主节点
   * **核心节点：**
