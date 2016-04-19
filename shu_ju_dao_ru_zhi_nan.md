@@ -37,7 +37,7 @@
   
 　　HDFS上传到KS3
   
-  <table><tr><td bgcolor=#7FFFD4>这里的背景色是：Aquamarine， 十六进制颜色值：#7FFFD4， rgb(127, 255, 212)</td></tr></table> 
+  <table><tr><td bgcolor=#7FFFD4>hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbarcket/kmr/</td></tr></table> 
 
 
 
