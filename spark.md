@@ -1,4 +1,4 @@
-## 添加Pig作业
+## 添加Spark作业
 
 　　Pig 是一种开源 Apache 库，在 Hadoop 的顶层上运行。该库使用名为 Pig Latin 的语言编写的、类似 SQL的命令，并将这些命令转换到 MapReduce 任务中。KMR支持 Apache Pig，此编程框架可用于分析和转换大型数据集。有关 Pig 的详细信息，请转到 http://pig.apache.org/
   
