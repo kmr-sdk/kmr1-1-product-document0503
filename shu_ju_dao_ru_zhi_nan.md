@@ -37,7 +37,8 @@
   
 　　HDFS上传到KS3
 hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbarcket/kmr/
-KS3拷贝到HDFS
+
+　　KS3拷贝到HDFS
 hadoop distcp ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
 Discp的更多用法请参考 DisCp Guide
   
