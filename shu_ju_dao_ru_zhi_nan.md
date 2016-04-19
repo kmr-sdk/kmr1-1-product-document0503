@@ -7,3 +7,5 @@
 　　（1）进入KS3控制台，新建存储空间 http://ks3.ksyun.com/console.html#/
   
   ![数据导入1](./images/sjdr1.png)
+  
+　　（2）“地区”选择“中国（北京）”（目前KMR仅在北京region提供），输入空间名称，如无需公开读写，访问控制选择“私密”即可。
