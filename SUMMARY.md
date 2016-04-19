@@ -8,7 +8,7 @@
 * [快速入门](chapter1.md)
 * 使用手册
    * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
-   * [创建集群－快速选项](chuang_jian_ji_qun.md)
+   * [创建集群－快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
    * [创建集群－高级选项](chuangjian_ji_qun_gao_ji_xuan_xiang_md.md)
    * [集群操作指南](ji_qun_cao_zuo_zhi_nan.md)
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
