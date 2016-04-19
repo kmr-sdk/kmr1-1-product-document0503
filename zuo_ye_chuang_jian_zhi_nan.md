@@ -8,3 +8,5 @@
  *  [添加Streaming作业](streaming.md)
 
  *  [添加Hive作业](hive.md)
+
+  * [添加Pig作业](pig.md)
