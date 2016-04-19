@@ -18,7 +18,14 @@
 | **MainClass** | 指定主程序的类名|
 | **Spark-submit选项** | 输入spark-submit选项<br>详情请参考<br>https://spark.apache.org/docs/1.5.2/submitting-applications.html|
 | **失败后操作** | 当作业执行失败后，集群可以根据这里的设置自动执行一些操作<br> **继续：**作业执行失败后，继续执行下一个作业。<br>**取消作业并等待：**作业执行失败后，取消集群中已提交的作业，集群进入等待状态，直到提交下一个作业。<br>**销毁集群：**作业运行失败后，销毁集群。<br>该选项的结果不会受到“集群释放保护”功能影响 | 
-| **参数** | 参数：输入以下指定的参数进行相关的配置：-D key=value指定配置，-p KEY=VALUE指定变量，也可加入自定义参数。输入参数时，只需要输入参数本身字符串即可，用空格分隔，无需参数转义和url encode。|
+| **参数** | 当对以下的参数进行多次设置时，只有最后一次设置才会生效：
+--name、--driver-memory、--driver-java-options、--driver-library-path、--driver-class-path、--executor-memory、--executor-cores、--queue、--num-executors、--properties-file、--jars、--files、--archives。
+不可以指定的参数有：
+--master、--deploy-mode、--py-files、--driver-cores、--total-executor-cores、--supervise、--help。
+对于不可以指定的参数，若指定也不会报错，只是是参数设置无效。
+对于CORE节点为一般通用型集群或测试体验版集群，在设置参数时，--driver-memory和--executor-memory建议设置为小于1G，否则可能会因为集群资源不足，影响作业正常运行。
+对于CORE节点为上述以外的其他类型时，--driver-memory和--executor-memory建议设置为小于2G，否则可能会因为集群资源不足，影响作业正常运行。
+您输入参数时，只需要输入参数本身字符串即可，用空格分隔，无需参数转义和url encode。|
 
 　　3.如果您是在创建集群阶段添加作业，点击“下一步”，跳转到确认订单页面，提交订单后，添加的作业会在集群创建完成后开始执行。
 
