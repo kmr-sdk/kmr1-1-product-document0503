@@ -37,7 +37,7 @@
 | **自定义参数** | 您可以通过此功能来自定义各类集群应用的参数配置（如core-site,hadoop-env等）,文本输入框中每一行都可以定义一个参数，注意（KMR不会对参数或者配置文件的正确性进行检查），自定义参数的格式为：<br>
 classification=<配置文件名>,properties=[<配置项>=<值>]
 例如：<br>
-classification=mapred-site,properties=[mapred.tasktracker.map.tasks.maximum=4]
+classification=mapred-site,properties=[mapred.tasktracker.map.tasks.maximum=4]<br>
 目前KMR支持以下配置文件的自定义参数（自定义参数时不需要输入文件扩展名）：
 "core-site.xml";"hdfs-site.xml";"mapred-site.xml";
 "yarn-site.xml";"capacity-scheduler.xml";
