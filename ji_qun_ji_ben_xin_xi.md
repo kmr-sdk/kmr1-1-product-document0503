@@ -33,5 +33,17 @@
 | 字段 | 操作 |
 | -- | -- |
 | **平台版本选择** | 选择创建KMR集群所用的平台版本，选择不同版本可提供不同的集群基础配置 |
-| **安装应用** | 主要用于集群管理，并将计算程序和原始数据集分配到核心实例。此外，它还会跟踪每个计算作业的执行状态，监控实例的运行状况。KMR主节点与Hadoop系统的主节点相对应。一个KMR集群只有一个主节点。 |
-| **自定义参数** | 主要用于执行各项集群计算作业，同时作为hadoop分布式文件系统的数据节点存储数据。KMR核心节点与Hadoop系统的slave节点相对应。一个KMR集群可以有2至多个核心节点 |
+| **安装应用** | 选择KMR集群中需要安装的Hadoop周边生态应用。*注意，在集群创建完成后这些选项无法更改*|
+| **自定义参数** | 您可以通过此功能来自定义各类集群应用的参数配置（如core-site,hadoop-env等）,文本输入框中每一行都可以定义一个参数，注意（KMR不会对参数或者配置文件的正确性进行检查），自定义参数的格式为：
+classification=<配置文件名>,properties=[<配置项>=<值>]
+例如：
+classification=mapred-site,properties=[mapred.tasktracker.map.tasks.maximum=4]
+目前KMR支持以下配置文件的自定义参数（自定义参数时不需要输入文件扩展名）：
+"core-site.xml";"hdfs-site.xml";"mapred-site.xml";
+"yarn-site.xml";"capacity-scheduler.xml";
+"hadoop-env.sh";"httpfs-env.sh";"mapred-env.sh";
+"yarn-env.sh";"log4j.properties";"hive-env.sh";
+"hive-site.xml";"hive-exec-log4j.properties";
+"hive-log4j.properties";"spark-env.sh";
+"spark-defaults.conf";"log4j.properties";
+"httpfs-site.xml" ; |
