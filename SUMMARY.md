@@ -25,5 +25,6 @@
    * [FAQ](faq.md)
 * [API参考手册](api.md)
    * [简介](jian_jie.md)
+   * 通用请求
 * [SDK使用手册](sdkshi_yong_shou_ce.md)
 
