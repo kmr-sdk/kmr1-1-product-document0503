@@ -21,5 +21,5 @@
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
-* [API](api.md)
+* [API参考手册](api.md)
 
