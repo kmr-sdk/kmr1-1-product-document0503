@@ -16,8 +16,8 @@
    * [执行计划指南](zhi_xing_ji_hua_zhi_nan.md)
    * [SSH连接指南](sshlian_jie_zhi_nan.md)
    * [密钥管理指南](mi_yao_guan_li_zhi_nan.md)
-   * [产品术语表](chan_pin_zhu_yu_biao.md)
    * [监控指南](jian_kong_zhi_nan.md)
+   * [产品术语表](chan_pin_zhu_yu_biao.md)
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
