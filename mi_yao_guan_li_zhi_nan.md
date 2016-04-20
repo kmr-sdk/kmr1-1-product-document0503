@@ -3,8 +3,10 @@
 
 用户除了通过控制台来管理集群和作业外，也可以通过SSH来访问管理集群，而KMR集群仅支持SSH 密钥认证方式，因此密钥管理模块用来管理通过SSH方式访问集群的密钥。
 
-[创建密钥](chuang_jian_mi_yao.md)
+* [创建密钥](chuang_jian_mi_yao.md)
 
-密钥列表
 
-密钥详情
+* [密钥列表](mi_yao_lie_biao.md)
+
+
+* [密钥详情](mi_yao_xiang_qing.md)
