@@ -19,4 +19,5 @@ timestamp为yyyyMMdd格式的时间戳，region为请求服务所在区域名，
 签名算法：
 
 ```
+[signature]= sha256(sha256(sha256(sha256(sha256("KSC4"+sign_key,timestamp),region),service),req_type),string_to_sign)
 ```
