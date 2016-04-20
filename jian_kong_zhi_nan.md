@@ -32,9 +32,9 @@
 ![namenode](./images/jkzn3.png)
 
 
-OOZIE
+　　**OOZIE**
 
-Oozie是服务于Hadoop生态系统的工作流调度工具，Oozie工作流是放置在控制依赖DAG（有向无环图）中的一组动作，把多个Map/Reduce作业组合到一个逻辑工作单元中，来完成更大型的任务。
+　　Oozie是服务于Hadoop生态系统的工作流调度工具，Oozie工作流是放置在控制依赖DAG（有向无环图）中的一组动作，把多个Map/Reduce作业组合到一个逻辑工作单元中，来完成更大型的任务。
 
 ![oozie](./images/jkzn4.png)
 
