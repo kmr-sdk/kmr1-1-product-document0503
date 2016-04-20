@@ -10,7 +10,7 @@
 | -- | -- |
 | **VPC网络** | 您可以使用默认VPC来创建KMR集群，也可以选择自定义VPC |
 | **KEC子网** | KEC子网是VPC中用于管理云主机的网络单元，您可以使用默认KEC子网，也可以选择自定义子网。如果使用自定义VPC，请确认VPC中已创建可用的KEC子网 |
-| **EndPoint** | EndPoint可以在您的VPC和其他KSC服务之间创建私有连接，使用KMR服务必须指定EndPoint. 如果使用自定义VPC，请确认VPC中已创建可用的EndPoint|
+| **EndPoint** | EndPoint可以在您的VPC和其他KSC服务之间创建私有连接，使用KMR服务必须指定EndPoint。 如果使用自定义VPC，请确认VPC中已创建可用的EndPoint|
 
 　　2.设置集群管理信息
 
