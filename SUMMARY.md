@@ -22,6 +22,7 @@
    * [服务和管理端口列表](fu_wu_he_guan_li_duan_kou_lie_biao.md)
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
+   * FAQ
 * [API参考手册](api.md)
 * [SDK使用手册](sdkshi_yong_shou_ce.md)
 
