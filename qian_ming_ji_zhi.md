@@ -14,8 +14,8 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
 　　[access_key] =用户Access key ID<br>
 　　[scope] = [timestamp]/[region]/[service][req_type]<br>
 　　timestamp为yyyyMMdd格式的时间戳，region为请求服务所在区域名，service为访问的服务名，req_type为请求的类型。<br>
-　　[signed_headers]：将Headers按照name升序排列
-[signed_headers] = [header_name_1];[header_name_2]....
+　　[signed_headers]：将Headers按照name升序排列<br>
+　　[signed_headers] = [header_name_1];[header_name_2]....
 
 签名算法：
 
