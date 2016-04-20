@@ -16,6 +16,7 @@
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
    * [SSH连接指南](sshlian_jie_zhi_nan.md)
    * [监控指南](jian_kong_zhi_nan.md)
+   * 执行计划指南
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
 * [API](api.md)
