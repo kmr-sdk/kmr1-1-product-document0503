@@ -4,7 +4,7 @@
 
 ![绑定EIP](./images/fwjq1.png)
 
-　　2.导入3.7.1为集群添加SSH密钥 中产生的私钥
+　　2.导入　为集群添加SSH密钥 中产生的私钥
 
 ![导入私钥](./images/fwjq2.png)
 
