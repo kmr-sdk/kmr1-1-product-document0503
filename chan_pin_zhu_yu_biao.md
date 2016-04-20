@@ -8,7 +8,7 @@
 | KMR Master Node | 1:4 | 2:4 | 3:4 |
 | KMR Core Node | 1:5 | 2:5 | 3:5 |
 | KMR Job | 1:6 | 2:6 | 3:6 |
-| SSH KEY | 1:7 | 2:7 | 3:7 |
+| SSH KEY |  | SSH密钥 | 指用户在控制台上上传的SSH 公钥 |
 | Kingsoft standard storage service | KS3 | 云存储 | 金山云标准存储服务 |
 | Hadoop file system | HDFS |  | Hadoop 分布式文件系统 (HDFS) 是一种分布式的、可扩展的文件系统，供 Hadoop 使用。 |
 | MapReduce | MR | | MapReduce 是一种用于分布式计算的编程模型,用于大规模数据集的并行运算。| 
