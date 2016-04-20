@@ -15,3 +15,8 @@
 | HiveServer | N/A |
 
 　　**Core节点：**
+  
+| 服务名称 | 端口 |
+| -- | -- |
+| HDFS datanode | N/A |
+| YARN nodemanager | N/A |
