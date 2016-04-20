@@ -21,3 +21,25 @@ timestamp为yyyyMMdd格式的时间戳，region为请求服务所在区域名，
 ```
 [signature]= sha256(sha256(sha256(sha256(sha256("KSC4"+sign_key,timestamp),region),service),req_type),string_to_sign)
 ```
+
+其中：
+[sign_key] =用户Secret Access Key
+[stringToSign] = "KSC4-HMAC-SHA256" + "\n"
+		  + [X-Ksc-Date] + "\n"
+        +[scope] + “\n”
+		 + SHA-256([canonical_request])
+[canonical_request] = [HTTPRequestMethod] + "\n"
+ 		 + [CanonicalURI] + "\n"
+		 + [CanonicalQueryString] + "\n"
+		 + [CanonicalHeaders] + "\n"
+		 + [signed_headers] + "\n"
+		 + SHA-256([request_body])
+[HTTPRequestMethod] = POST或GET
+[CanonicalURI] = 请求URL中除去Endpoint之外的剩余部分。目前URL等于Endpoint，所以CanonicalURI为空
+[CanonicalQueryString] = 空
+[CanonicalHeaders]：按照[signed_headers]中的排序方式进行排序
+[CanonicalHeaders] =
+LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"
+     +LowerCase (HeaderName2) + ‘:’ + Trim (HeaderValue2) + "\n"
++.......
+[request_body] = Post 请求的body部分
