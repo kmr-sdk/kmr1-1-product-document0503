@@ -10,8 +10,9 @@
 
 　　windows用户可以使用PuTTY.exe工具
 　　http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+  
 　　3.指定IP和端口连接KMR主节点，连接到集群，登陆账户名是root。
 
 ![连接到集群](./images/fwjq3.png)
 
-主节点和核心节点已配置了SSH互信，可以在控制台查看核心节点的IP地址，直接从主节点登陆到各个核心节点。
+　　主节点和核心节点已配置了SSH互信，可以在控制台查看核心节点的IP地址，直接从主节点登陆到各个核心节点。
