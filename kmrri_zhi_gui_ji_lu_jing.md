@@ -19,7 +19,8 @@ KS3归集日志位置:  ks3://<日志归集路径>/<ClusterID>/ history_server_l
 原始日志位置： /tmp/hadoop-yarn/staging/history/done <br>
 KS3归集日志位置:  ks3://<日志归集路径>/<ClusterID>/ history_job_log
 
-Core Node
+**Core Node**
+
 1.data_node
 原始日志位置： /mnt/hadoop/logs <br>
 KS3归集日志位置:  ks3://<日志归集路径>/<ClusterID>/ datanode_log
