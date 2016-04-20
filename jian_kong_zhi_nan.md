@@ -46,7 +46,7 @@
 ![historyserver](./images/jkzn5.png)
 
 
-　　**park History Server**
+　　**Spark History Server**
 
 　　运行Spark应用程序的时候，driver会提供一个webUI显示应用程序的运行信息，但是应用程序完成后，将关闭端口，即无法查看应用程序的历史记录。Spark History Server将运行完的应用程序信息义Web的方式提供给用户。
   
