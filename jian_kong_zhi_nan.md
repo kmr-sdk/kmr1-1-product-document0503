@@ -26,7 +26,7 @@ YARN ResourceManager管理工具可以查看集群运行的详细信息，包括
 
 
 
-![ganlia](./images/jkzn1.png)
+![resourcemanager](./images/jkzn2.png)
 ![ganlia](./images/jkzn1.png)
 ![ganlia](./images/jkzn1.png)
 ![ganlia](./images/jkzn1.png)![ganlia](./images/jkzn1.png)
