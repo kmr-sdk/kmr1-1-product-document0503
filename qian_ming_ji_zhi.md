@@ -43,3 +43,6 @@ LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"
      +LowerCase (HeaderName2) + ‘:’ + Trim (HeaderValue2) + "\n"
 +.......
 [request_body] = Post 请求的body部分
+
+
+Python版签名代码示例：
