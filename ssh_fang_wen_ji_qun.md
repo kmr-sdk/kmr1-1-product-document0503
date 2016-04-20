@@ -5,7 +5,8 @@
 ![绑定EIP](./images/fwjq1.png)
 
 2.导入3.7.1为集群添加SSH密钥 中产生的私钥4.指定IP和端口连接KMR主节点，连接到集群，登陆账户名是root。
-3.
+
+![导入私钥](./images/fwjq2.png)
 windows用户可以使用PuTTY.exe工具http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 4.指定IP和端口连接KMR主节点，连接到集群，登陆账户名是root。
 
