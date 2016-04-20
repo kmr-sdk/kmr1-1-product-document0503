@@ -46,3 +46,47 @@ LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"
 
 
 Python版签名代码示例：
+
+```
+def canonical_request(self, http_request, sign_headers):
+        cr = []
+        cr.append(http_request.method.upper())
+        cr.append(self.canonical_uri(http_request))
+        cr.append(self.canonical_query_string(http_request))
+        headers_to_sign = self.headers_to_sign(http_request, sign_headers)
+        cr.append(self.canonical_headers(headers_to_sign) + '\n')
+        cr.append(self.signed_headers(headers_to_sign))
+        if self.header_name_content_sha256 in http_request.headers:
+            content_hash = self._ensure_bytes(http_request.headers[self.header_name_content_sha256])
+            cr.append(content_hash)
+        else:
+            cr.append(self.payload(http_request))
+        return '\n'.join(cr)
+
+    def string_to_sign(self, http_request, canonical_request, scope):
+        sts = [self.hash_method]
+        sts.append(http_request.headers[self.header_name_date])
+        sts.append(scope)
+        sts.append(sha256(canonical_request.encode('utf-8')).hexdigest())
+        return '\n'.join(sts)
+
+def _sign(self, key, msg, hex=False):
+        key = self._ensure_bytes(key)
+        if hex:
+            sig = hmac.new(key, msg.encode('utf-8'), sha256).hexdigest()
+        else:
+            sig = hmac.new(key, msg.encode('utf-8'), sha256).digest()
+        return si
+
+def signature(self, string_to_sign, scope, secret_key):
+        parts = scope.split('/')
+        ts = parts[0]
+        region = parts[1]
+        service = parts[2]
+        req_type = parts[3]
+        k_date= self._sign((self.hash_keyword + secret_key).encode('utf-8'), ts)
+        k_region = self._sign(k_date, region)
+        k_service = self._sign(k_region, service)
+        k_signing = self._sign(k_service, req_type)
+        return self._sign(k_signing, string_to_sign, hex=True)
+```
