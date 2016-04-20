@@ -19,6 +19,7 @@
    * [监控指南](jian_kong_zhi_nan.md)
    * [产品术语表](chan_pin_zhu_yu_biao.md)
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
+   * 服务和管理端口列表
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
 * [API参考手册](api.md)
