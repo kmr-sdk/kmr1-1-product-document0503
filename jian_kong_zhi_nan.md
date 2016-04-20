@@ -18,9 +18,9 @@
 
 　　安装在 KMR集群上的 Hadoop 和其他应用程序会将用户界面发布在主节点上托管的网站，这些页面记录了各类集群服务的统计和监控信息，你可以直接通过“集群详情”-“管理工具”进入各个页面查看。
 
-　　YARN ResourceManager
+　**　YARN ResourceManager**
 
-YARN ResourceManager管理工具可以查看集群运行的详细信息，包括节点信息、应用信息和调度信息等。
+　　YARN ResourceManager管理工具可以查看集群运行的详细信息，包括节点信息、应用信息和调度信息等。
 
 
 ![resourcemanager](./images/jkzn2.png)
