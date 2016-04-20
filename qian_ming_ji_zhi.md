@@ -5,5 +5,6 @@
 
 Http请求header中 Authorization字段是服务的授权参数，其格式为：
 
-```Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders=[signed_headers],Signature=[signature]"
+```
+Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders=[signed_headers],Signature=[signature]"
 ```
