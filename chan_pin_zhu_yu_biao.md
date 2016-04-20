@@ -12,4 +12,4 @@
 | Kingsoft standard storage service | 1:8 | 2:8 | 3:8 |
 | Hadoop file system | 1:9 | 2:9 | 3:9 |
 | MapReduce | 1:10 | 2:10 | 3:10 
-| Hadoop | 1:10 | 2:10 | 3:10 |
+| Hadoop |  |  | Apache Hadoop 是一种开源 Java 软件框架，支持跨越一组服务器处理大量数据。它可以在一台服务器或成千上万台服务器上运行。Hadoop 使用名为 MapReduce 的编程模型在多个服务器之间分配处理工作。此外，它还实施了一个名为 HDFS 的分布式文件系统，在多个服务器之间存储数据。 |
