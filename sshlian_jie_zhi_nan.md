@@ -8,7 +8,7 @@
   
 * [为集群添加SSH密钥](tian_jia_ssh_mi_yao.md)
   
-[* 使用SSH访问集群](ssh_fang_wen_ji_qun.md)
+* [使用SSH访问集群](ssh_fang_wen_ji_qun.md)
 
   
   
