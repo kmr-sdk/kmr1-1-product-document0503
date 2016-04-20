@@ -22,4 +22,5 @@
 * 购买指南
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
 * [API参考手册](api.md)
+* SDK使用手册
 
