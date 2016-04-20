@@ -23,10 +23,12 @@ ARN ResourceManager
 YARN ResourceManager管理工具可以查看集群运行的详细信息，包括节点信息、应用信息和调度信息等。
 
 
-
-
-
 ![resourcemanager](./images/jkzn2.png)
-![ganlia](./images/jkzn1.png)
+
+HDFS Namenode
+
+HDFS Namenode用来查看HDFS的使用状况，包括NameNode和DataNode的具体信息。
+
+![namenode](./images/jkzn3.png)
 ![ganlia](./images/jkzn1.png)
 ![ganlia](./images/jkzn1.png)![ganlia](./images/jkzn1.png)
