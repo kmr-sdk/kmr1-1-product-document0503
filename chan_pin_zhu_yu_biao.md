@@ -7,7 +7,7 @@
 | KMR cluster | 1:3 | 2:3 | 3:3 |
 | KMR Master Node | 1:4 | 2:4 | 3:4 |
 | KMR Core Node | 1:5 | 2:5 | 3:5 |
-| KMR Job | 1:6 | 2:6 | 3:6 |
+| KMR Job | Job | 作业 | 一个作业是提交到集群中的一个工作单元。 一个作业可能包含一个或多个Hadoop任务，或者包含安装或配置一个应用程序的指令。 您可以对一个集群提交多达256个作业。 |
 | SSH KEY |  | SSH密钥 | 指用户在控制台上上传的SSH 公钥 |
 | Kingsoft standard storage service | KS3 | 云存储 | 金山云标准存储服务 |
 | Hadoop file system | HDFS |  | Hadoop 分布式文件系统 (HDFS) 是一种分布式的、可扩展的文件系统，供 Hadoop 使用。 |
