@@ -30,5 +30,20 @@ HDFS Namenode
 HDFS Namenode用来查看HDFS的使用状况，包括NameNode和DataNode的具体信息。
 
 ![namenode](./images/jkzn3.png)
-![ganlia](./images/jkzn1.png)
-![ganlia](./images/jkzn1.png)![ganlia](./images/jkzn1.png)
+
+
+OOZIE
+
+Oozie是服务于Hadoop生态系统的工作流调度工具，Oozie工作流是放置在控制依赖DAG（有向无环图）中的一组动作，把多个Map/Reduce作业组合到一个逻辑工作单元中，来完成更大型的任务。
+
+![oozie](./images/jkzn4.png)
+
+YARN HistoryServer
+JobHistory是Hadoop自带的历史服务器，可以查看已经运行完的MapReduce作业记录，例如使用的Map数、Reduce数、作业提交时间、作业启动时间、作业完成时间等信息。
+
+![historyserver](./images/jkzn5.png
+
+
+
+
+)![ganlia](./images/jkzn1.png)
