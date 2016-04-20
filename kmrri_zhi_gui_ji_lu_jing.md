@@ -8,7 +8,7 @@
 KS3归集日志位置：ks3://<日志归集路径>/<ClusterID>/resource_manager_log
 
 2、name_node
-原始日志位置： /mnt/log/hadoop/hadoop
+原始日志位置： /mnt/log/hadoop/hadoop<br>
 KS3归集日志位置：ks3://<日志归集路径>/<ClusterID>/namenode_log
 
 3、history_server
