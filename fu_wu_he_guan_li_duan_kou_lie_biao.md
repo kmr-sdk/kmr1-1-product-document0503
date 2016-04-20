@@ -6,10 +6,10 @@ MASTER节点：
 
 | 服务名称 | 端口 |
 | -- | -- |
-| 0:2 | 1:2 |
-| 0:3 | 1:3 |
-| 0:4 | 1:4 |
-| 0:5 | 1:5 |
-| 0:6 | 1:6 |
-| 0:7 | 1:7 |
-| 0:8 | 1:8 |
+| YARN ResourceManager | 8088 |
+| HDFS Namenode | 50070 |
+| HDFS seconderynamenode | N/A |
+| OOZIE | 11000 |
+| YARN HistoryServer | 19888 |
+| Spark History Server | 18080 |
+| HiveServer | N/A |
