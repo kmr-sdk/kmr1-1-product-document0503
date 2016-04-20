@@ -13,3 +13,5 @@
 | YARN HistoryServer | 19888 |
 | Spark History Server | 18080 |
 | HiveServer | N/A |
+
+　　**Core节点：**
