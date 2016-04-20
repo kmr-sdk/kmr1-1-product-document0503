@@ -8,8 +8,6 @@
 
 　　[**2.集群模板列表**](ji_qun_mu_ban_lie_biao.md)
 
-
-
 　　[**3.集群模板详情**](ji_qun_mu_ban_xiang_qing.md)
   
  
