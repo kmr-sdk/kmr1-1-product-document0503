@@ -25,9 +25,9 @@
 
 ![resourcemanager](./images/jkzn2.png)
 
-HDFS Namenode
+　　**HDFS Namenode**
 
-HDFS Namenode用来查看HDFS的使用状况，包括NameNode和DataNode的具体信息。
+　　HDFS Namenode用来查看HDFS的使用状况，包括NameNode和DataNode的具体信息。
 
 ![namenode](./images/jkzn3.png)
 
