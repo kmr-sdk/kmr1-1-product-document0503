@@ -5,6 +5,7 @@
 1.resource_manager
 
 原始日志位置： /mnt/yarn/logs
+
 KS3归集日志位置：ks3://<日志归集路径>/<ClusterID>/resource_manager_log
 
 2、name_node
