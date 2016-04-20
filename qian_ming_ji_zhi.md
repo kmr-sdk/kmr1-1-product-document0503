@@ -18,3 +18,5 @@ timestamp为yyyyMMdd格式的时间戳，region为请求服务所在区域名，
 
 签名算法：
 
+```
+```
