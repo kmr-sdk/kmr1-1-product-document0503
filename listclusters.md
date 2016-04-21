@@ -6,11 +6,14 @@
   
 　　**请求参数**
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
-ClusterStates.member.N
-需要列出的集群状态。
-类型：String列表
-可选值：STARTING | RUNNING | RESIZING | TRANSFERINGLOG | TERMINATED | TERMINATED_WITH_ERRORS
-是否必须：否
+  
+　　**ClusterStates.member.N**
+  
+　　需要列出的集群状态。<br>
+　　类型：String列表<br>
+　　可选值：STARTING | RUNNING | RESIZING | TRANSFERINGLOG | TERMINATED | TERMINATED_WITH_ERRORS<br>
+　　是否必须：否
+  
 CreatedAfter
 列出在某个日期和时间之后创建的集群。
 类型：DateTime
