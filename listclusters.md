@@ -15,19 +15,26 @@
 　　可选值：STARTING | RUNNING | RESIZING | TRANSFERINGLOG | TERMINATED | TERMINATED_WITH_ERRORS<br>
 　　是否必须：否
   
-**CreatedAfter**
-列出在某个日期和时间之后创建的集群。
-类型：DateTime
-是否必须：否
-CreatedBefore
-列出在某个日期和时间之前创建的集群。
-类型：DateTime
-是否必须：否
-Marker
-分页标识。
-类型：String
-是否必须：否
-返回参数
+　　**CreatedAfter**
+  
+　　列出在某个日期和时间之后创建的集群。
+　　类型：DateTime
+　　是否必须：否
+  
+　　CreatedBefore
+  
+　　列出在某个日期和时间之前创建的集群。
+　　类型：DateTime
+　　是否必须：否
+  
+　　Marker
+  
+　　分页标识。
+　　类型：String
+　　是否必须：否
+  
+* **返回参数**
+
 返回结果包含以下字段：
 Clusters
 当前账户满足请求中给出的过滤条件的集群列表
