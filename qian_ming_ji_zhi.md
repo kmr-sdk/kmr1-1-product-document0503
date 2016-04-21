@@ -31,11 +31,11 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
        　 　　 +[scope] + “\n”<br>
 		　　　 + SHA-256([canonical_request])<br>
 　　[canonical_request] = [HTTPRequestMethod] + "\n"<br>
- 		　　　 + [CanonicalURI] + "\n"<br>
-		　　　 + [CanonicalQueryString] + "\n"<br>
-		　　　 + [CanonicalHeaders] + "\n"<br>
-		　　　 + [signed_headers] + "\n"<br>
-		　　　 + SHA-256([request_body])<br>
+　　　　　 + [CanonicalURI] + "\n"<br>
+ 　　　　　+ [CanonicalQueryString] + "\n"<br>
+　　　　　 + [CanonicalHeaders] + "\n"<br>
+　　　　　 + [signed_headers] + "\n"<br>
+　　　　　 + SHA-256([request_body])<br>
 　　[HTTPRequestMethod] = POST或GET<br>
 　　[CanonicalURI] = 请求URL中除去Endpoint之外的剩余部分。目前URL等于Endpoint，所以CanonicalURI为空<br>
 　　[CanonicalQueryString] = 空<br>
