@@ -10,10 +10,10 @@
   
 　　**ClusterStates.member.N**
   
-　　需要列出的集群状态。<br>
-　　类型：String列表<br>
-　　可选值：STARTING | RUNNING | RESIZING | TRANSFERINGLOG | TERMINATED | TERMINATED_WITH_ERRORS<br>
-　　是否必须：否
+　　　　需要列出的集群状态。<br>
+　　　　类型：String列表<br>
+　　　　可选值：STARTING | RUNNING | RESIZING | TRANSFERINGLOG | TERMINATED | TERMINATED_WITH_ERRORS<br>
+　　　　是否必须：否
   
 　　**CreatedAfter**
   
@@ -35,10 +35,12 @@
   
 * **返回参数**
 
-返回结果包含以下字段：
-Clusters
-当前账户满足请求中给出的过滤条件的集群列表
-类型：ClusterSummary列表 (5.7 ClusterSummary)
+　　返回结果包含以下字段：
+  
+　　Clusters
+  
+　　　　当前账户满足请求中给出的过滤条件的集群列表
+　　　　类型：ClusterSummary列表 (5.7 ClusterSummary)
 Marker
 用于获取下一页结果集的分页标识
 类型：String
