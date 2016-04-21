@@ -27,23 +27,23 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
 
 　　[sign_key] =用户Secret Access Key<br>
 　　[stringToSign] = "KSC4-HMAC-SHA256" + "\n"<br>
-		 　　+ [X-Ksc-Date] + "\n"<br>
-        　　 +[scope] + “\n”<br>
-		　　 + SHA-256([canonical_request])<br>
+		　 　　+ [X-Ksc-Date] + "\n"<br>
+       　 　　 +[scope] + “\n”<br>
+		　　　 + SHA-256([canonical_request])<br>
 　　[canonical_request] = [HTTPRequestMethod] + "\n"<br>
- 		　　 + [CanonicalURI] + "\n"<br>
-		　　 + [CanonicalQueryString] + "\n"<br>
-		　　 + [CanonicalHeaders] + "\n"<br>
-		　　 + [signed_headers] + "\n"<br>
-		　　 + SHA-256([request_body])<br>
+ 		　　　 + [CanonicalURI] + "\n"<br>
+		　　　 + [CanonicalQueryString] + "\n"<br>
+		　　　 + [CanonicalHeaders] + "\n"<br>
+		　　　 + [signed_headers] + "\n"<br>
+		　　　 + SHA-256([request_body])<br>
 　　[HTTPRequestMethod] = POST或GET<br>
 　　[CanonicalURI] = 请求URL中除去Endpoint之外的剩余部分。目前URL等于Endpoint，所以CanonicalURI为空<br>
 　　[CanonicalQueryString] = 空<br>
 　　[CanonicalHeaders]：按照[signed_headers]中的排序方式进行排序<br>
 　　[CanonicalHeaders] =<br>
-　　　　　LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"<br>
-     　　+LowerCase (HeaderName2) + ‘:’ + Trim (HeaderValue2) + "\n"<br>
-　　　　　+.......<br>
+　　　　　　LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"<br>
+     　　　+LowerCase (HeaderName2) + ‘:’ + Trim (HeaderValue2) + "\n"<br>
+　　　　　　+.......<br>
 　　[request_body] = Post 请求的body部分<br>
 　　
 
