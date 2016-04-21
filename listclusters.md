@@ -17,21 +17,21 @@
   
 　　**CreatedAfter**
   
-　　列出在某个日期和时间之后创建的集群。
-　　类型：DateTime
-　　是否必须：否
+　　　　列出在某个日期和时间之后创建的集群。
+　　　　类型：DateTime
+　　　　是否必须：否
   
 　　CreatedBefore
   
-　　列出在某个日期和时间之前创建的集群。
-　　类型：DateTime
-　　是否必须：否
+　　　　列出在某个日期和时间之前创建的集群。
+　　　　类型：DateTime
+　　　　是否必须：否
   
 　　Marker
   
-　　分页标识。
-　　类型：String
-　　是否必须：否
+　　　　分页标识。
+　　　　类型：String
+　　　　是否必须：否
   
 * **返回参数**
 
@@ -41,28 +41,39 @@
   
 　　　　当前账户满足请求中给出的过滤条件的集群列表
 　　　　类型：ClusterSummary列表 (5.7 ClusterSummary)
-Marker
-用于获取下一页结果集的分页标识
-类型：String
-错误信息
-关于所有操作使用的通用错误信息，参考2.4通用错误信息
-InternalServerError
-当KMR服务出现内部错误时出现该错误信息类型
-HTTP状态码：500
-BadRequest
-当用户输入信息有误时出现该错误信息
-HTTP状态码：400
+    
+　　Marker
+  
+　　　　用于获取下一页结果集的分页标识
+　　　　类型：String
+    
+* **错误信息**
 
-样例
-请求样例
-POST / HTTP/1.1
-Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.ListClusters
-{
-    "ClusterStates": ["RUNNING", "TERMINATED"]
-    "CreatedAfter": "2016-01-08T19:00:00"
-}
+　　关于所有操作使用的通用错误信息，参考2.4通用错误信息
+  
+　　InternalServerError
+  
+　　　　当KMR服务出现内部错误时出现该错误信息类型
+　　　　HTTP状态码：500
+   
+　　BadRequest
+  
+　　　　当用户输入信息有误时出现该错误信息
+　　　　HTTP状态码：400
 
+* **样例**
+
+　　请求样例
+  
+```
+　　POST / HTTP/1.1
+　　Content-Type: application/json
+　　X-Ksc-Target: ElasticMapReduce_V1.ListClusters
+　　{
+   　　 "ClusterStates": ["RUNNING", "TERMINATED"]
+    　　"CreatedAfter": "2016-01-08T19:00:00"
+　　}
+```
 返回样例
 HTTP/1.1 200 OK
 Content-Type: application/json
