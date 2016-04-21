@@ -23,7 +23,7 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
 [signature]= sha256(sha256(sha256(sha256(sha256("KSC4"+sign_key,timestamp),region),service),req_type),string_to_sign)
 ```
 
-其中：
+　　其中：
 
 　　[sign_key] =用户Secret Access Key<br>
 　　[stringToSign] = "KSC4-HMAC-SHA256" + "\n"<br>
@@ -41,9 +41,9 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
 　　[CanonicalQueryString] = 空<br>
 　　[CanonicalHeaders]：按照[signed_headers]中的排序方式进行排序<br>
 　　[CanonicalHeaders] =<br>
-　　　　LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"<br>
-     　+LowerCase (HeaderName2) + ‘:’ + Trim (HeaderValue2) + "\n"<br>
-　　　　+.......<br>
+　　　　　LowerCase (HeaderName1) + ‘:’ + Trim (HeaderValue1) + "\n"<br>
+     　　+LowerCase (HeaderName2) + ‘:’ + Trim (HeaderValue2) + "\n"<br>
+　　　　　+.......<br>
 　　[request_body] = Post 请求的body部分<br>
 　　
 
