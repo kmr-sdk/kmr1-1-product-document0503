@@ -24,7 +24,7 @@
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考2.4通用错误信息
+　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
 
 　　**InternalServerError**
   
@@ -49,7 +49,7 @@ X-Ksc-Target: ElasticMapReduce_V1.TerminateJobFlows
 }```
 
 
-　　返回样例
+　　**返回样例**
   
 ```
 HTTP/1.1 200 OK
