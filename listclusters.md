@@ -49,21 +49,21 @@
     
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考2.4［通用错误信息］(tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
   
-　　InternalServerError
+　　**InternalServerError**
   
-　　　　当KMR服务出现内部错误时出现该错误信息类型
+　　　　当KMR服务出现内部错误时出现该错误信息类型<br>
 　　　　HTTP状态码：500
    
-　　BadRequest
+　　**BadRequest**
   
-　　　　当用户输入信息有误时出现该错误信息
+　　　　当用户输入信息有误时出现该错误信息<br>
 　　　　HTTP状态码：400
 
 * **样例**
 
-　　请求样例
+　　**请求样例**
   
 ```
 POST / HTTP/1.1
@@ -75,7 +75,7 @@ X-Ksc-Target: ElasticMapReduce_V1.ListClusters
 }
 ```
 
-　　返回样例
+　　**返回样例**
   
 ```
 HTTP/1.1 200 OK
