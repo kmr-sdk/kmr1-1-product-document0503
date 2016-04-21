@@ -1,11 +1,11 @@
 ## ListClusters
 
-　　**功能描述**
+* **功能描述**
 
 　　列出当前账户可见的所有KMR集群状态信息，允许您基于特定的条件对这些信息进行筛选；例如，基于集群创建日期和时间来筛选。每次调用默认返回100个集群，每次最多返回100个，同时会返回一个Marker来对多次ListClusters请求调用进行分页跟踪。
   
-　　**请求参数**
-  
+* **请求参数**
+ 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
 　　**ClusterStates.member.N**
@@ -15,7 +15,7 @@
 　　可选值：STARTING | RUNNING | RESIZING | TRANSFERINGLOG | TERMINATED | TERMINATED_WITH_ERRORS<br>
 　　是否必须：否
   
-CreatedAfter
+**CreatedAfter**
 列出在某个日期和时间之后创建的集群。
 类型：DateTime
 是否必须：否
