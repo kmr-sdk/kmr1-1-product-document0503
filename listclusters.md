@@ -66,15 +66,18 @@
 　　请求样例
   
 ```
-　　POST / HTTP/1.1
-　　Content-Type: application/json
-　　X-Ksc-Target: ElasticMapReduce_V1.ListClusters
-　　{
-   　　 "ClusterStates": ["RUNNING", "TERMINATED"]
-    　　"CreatedAfter": "2016-01-08T19:00:00"
-　　}
+POST / HTTP/1.1
+Content-Type: application/json
+X-Ksc-Target: ElasticMapReduce_V1.ListClusters
+{
+   "ClusterStates": ["RUNNING", "TERMINATED"]
+   "CreatedAfter": "2016-01-08T19:00:00"
+}
 ```
-返回样例
+
+　　返回样例
+  
+```
 HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: xxx
@@ -99,3 +102,4 @@ Content-Length: xxx
         }
     ]
 }
+```
