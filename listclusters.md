@@ -17,8 +17,8 @@
   
 　　**CreatedAfter**
   
-　　　　列出在某个日期和时间之后创建的集群。
-　　　　类型：DateTime
+　　　　列出在某个日期和时间之后创建的集群。<br>
+　　　　类型：DateTime<br>
 　　　　是否必须：否
   
 　　CreatedBefore
