@@ -26,11 +26,12 @@
 
 　　关于所有操作使用的通用错误信息，参考2.4通用错误信息
 
-　　InternalServerError
-　　　　当KMR服务出现内部错误时出现该错误信息类型
+　　**InternalServerError**
+  
+　　　　当KMR服务出现内部错误时出现该错误信息类型<br>
 　　　　HTTP状态码：500
     
-　　BadRequest
+　　**BadRequest**
 　　　　当用户输入信息有误时出现该错误信息
 　　　　HTTP状态码：400
 
