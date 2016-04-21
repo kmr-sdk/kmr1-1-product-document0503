@@ -17,7 +17,7 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
 　　[signed_headers]：将Headers按照name升序排列<br>
 　　[signed_headers] = [header_name_1];[header_name_2]....
 
-签名算法：
+　　签名算法：
 
 ```
 [signature]= sha256(sha256(sha256(sha256(sha256("KSC4"+sign_key,timestamp),region),service),req_type),string_to_sign)
