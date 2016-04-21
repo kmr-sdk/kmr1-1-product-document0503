@@ -25,9 +25,8 @@ Authorization="[HashMethod][空格]Credential=[access_key]/[scope],SignedHeaders
 
 其中：
 
-　　[sign_key] =用户Secret Access Key
-  
-　　[stringToSign] = "KSC4-HMAC-SHA256" + "\n"
+　　[sign_key] =用户Secret Access Key<br><br>
+　　[stringToSign] = "KSC4-HMAC-SHA256" + "\n"<br><br>
 		 　　 + [X-Ksc-Date] + "\n"<br>
         　　　+[scope] + “\n”<br>
 		　　 + SHA-256([canonical_request])<br>
