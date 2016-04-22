@@ -51,16 +51,16 @@
 　　　　类型：String<br>
 　　　　是否必须：否
     
-　　Configurations.member.N
+　　**Configurations.member.N**
   
-　　　　所创建集群的配置信息。
-　　　　类型：Configuration列表 （5.14 Configuration）
+　　　　所创建集群的配置信息。<br>
+　　　　类型：Configuration列表 （5.14 Configuration）<br>
 　　　　是否必须：否
     
-　　BootstrapActions.member.N
+　　**BootstrapActions.member.N**
   
-　　　　集群引导操作列表
-　　　　类型：BootstrapAction列表(5.15 BootstrapAction)
+　　　　集群引导操作列表<br>
+　　　　类型：BootstrapAction列表(5.15 BootstrapAction)<br>
 　　　　是否必须：否
     　　
 * **返回参数**
