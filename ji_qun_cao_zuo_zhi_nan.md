@@ -1,6 +1,6 @@
 # 集群操作指南
 
-![集群操作](./images/jqcz.png)
+![集群操作](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jqcz.png)
 　　KMR集群生命周期包含了初始化，运行，调整，错误，释放等状态，您可根据实际需求对集群执行管理操作。*注意：只有集群在“运行中”状态时才会开始执行作业并开始计费*。
   
  * [创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
