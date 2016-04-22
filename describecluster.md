@@ -22,7 +22,7 @@
 　　**Cluster**
   
 　　　　请求中集群的详细信息<br>
-　　　　类型：ClusterConfig  （5.1 ClusterConfig） 
+　　　　类型：ClusterConfig  （5.1 [ClusterConfig](ClusterConfig.md)） 
 
 * **错误信息**
 
