@@ -53,4 +53,4 @@
 
 　　5.配置完成后，该页面会根据集群的配置估算出KMR费用，点击“创建集群”后开始创建集群
 
-![快速选项5](./images/ksxx5.png)
+![快速选项5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksxx5.png)
