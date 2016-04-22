@@ -23,11 +23,6 @@
   
 　　　　请求中集群的详细信息<br>
 　　　　类型：ClusterConfig  （5.1 ClusterConfig） 
-    
-　　**Marker**
-  
-　　　　用于获取下一页结果集的分页标识<br>
-　　　　类型：String
 
 * **错误信息**
 
