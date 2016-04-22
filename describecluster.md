@@ -56,21 +56,25 @@ X-Ksc-Target: ElasticMapReduce_V1.DescribeCluster
   
 ```
 HTTP/1.1 200 OK
-  Content-Type: application/json
-Content-Length: 186
-Date: Thu, 07 Jan 2016 02:57:57 GMT
+Content-Type: application/json
+Content-Length: xxx
 {
-  "Marker": null,
-  "Instances": [
-    {
-      "Status": {
-        "State": "RUNNING"
-      },
-      "Id": "079d2b1f-cb1f-4365-acbb-c1b3f7424831",
-      "PrivateIpAddress": "10.168.113.134",
-      "PublicIpAddress": "10.168.113.134"
-    }
-  ]
+  "InstanceAttributes": [],
+  "Name": "lxk-quota-test-0",
+  "ServiceRole": null,
+  "TerminationProtected": false,
+  "HadoopVersion": "hadoop 2.6.0",
+  "LogUri": "ks3://kmrhkbj/lxk-log",
+  "AutoTerminate": false,
+  "Status": {
+    "State": "RUNNING"
+  },
+  "MasterPublicDnsName": "120.168.113.60",
+  "NormalizedInstanceMins": 1333,
+  "Applications": [
+    "hadoop"
+  ],
+  "Id": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
 }
 ```
 
