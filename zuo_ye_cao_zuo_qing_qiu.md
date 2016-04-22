@@ -4,7 +4,7 @@
 
 [**2. ListSteps**](ListSteps.md)
 
-[**3. SetTerminationProtection**](setterminationprotection.md)
+[**3. DescribeStep**](DescribeStep.md)
 
 [**4. ListInstanceGroups**](listinstancegroups.md)
 
