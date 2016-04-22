@@ -60,13 +60,13 @@ X-Ksc-Target: ElasticMapReduce_V1.AddJobFlows
                 "Args": [
                     "-input",
                     "ks3://yourbucket/input",
-"-output",
-"ks3://yourbucket/output",
-"-mapper",
-"ks3://yourbucket/mapper.py",
-                  "-reducer"
-"ks3://yourbucket/reducer.py",
-"-numMapTasks",
+                    "-output",
+                    "ks3://yourbucket/output",
+                    "-mapper",
+                    "ks3://yourbucket/mapper.py",
+                    "-reducer"
+                    "ks3://yourbucket/reducer.py",
+                    "-numMapTasks",
                     "1",
                     "-numReduceTasks",
                     "1",
