@@ -6,11 +6,11 @@
   
 　　（1）进入KS3控制台，新建存储空间 http://ks3.ksyun.com/console.html#/
   
-  ![数据导入1](./images/sjdr1.png)
+  ![数据导入1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/sjdr1.png)
   
 　　（2）“地区”选择“中国（北京）”（目前KMR仅在北京region提供），输入空间名称，如无需公开读写，访问控制选择“私密”即可。
   
-  ![数据导入2](./images/sjdr2.png)
+  ![数据导入2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/sjdr2.png)
   
   
   
@@ -19,7 +19,7 @@
 　　KS3 SDK:     https://github.com/ks3sd<br>
 　　KS3上传工具 http://www.ksyun.com/doc/art/id/432
   
-  ![数据导入3](./images/sjdr3.png)
+  ![数据导入3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/sjdr3.png)
   
   
 　　**2. 数据导入到HDFS**
