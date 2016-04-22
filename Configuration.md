@@ -1,12 +1,15 @@
 ## Configuration
-所创建集群的配置信息。
-Classification
-配置信息类别
-类型：String
-是否必须：否
-可选值：
-Classification	FileName
-core-site	core-site.xml
+
+　　所创建集群的配置信息。
+　　Classification
+　　　　配置信息类别
+　　　　类型：String
+　　　　是否必须：否
+　　　　可选值：
+    
+  |Classification|	FileName|
+|:|:|
+|core-site|	core-site.xml|
 hdfs-site	hdfs-site.xml
 mapred-site	mapred-site.xml
 yarn-site	yarn-site.xml
