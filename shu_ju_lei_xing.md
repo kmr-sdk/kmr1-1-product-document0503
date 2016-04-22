@@ -5,7 +5,7 @@
    
 [**1. ClusterConfig**](ClusterConfig.md)
 
-[**2. ListSteps**](ListSteps.md)
+[**2. ClusterStatus**](ClusterStatus.md)
 
 [**3. DescribeStep**](DescribeStep.md)
    
