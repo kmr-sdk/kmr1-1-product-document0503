@@ -15,11 +15,11 @@
 　　　　类型：String<br>
 　　　　是否必须：是
     
-　　**Marker**
+　　**InstanceGroups**
     
-　　　　分页标识。<br>
-　　　　类型：String<br>
-　　　　是否必须：否
+　　　　InstanceGroup类型列表。<br>
+　　　　类型：InstanceGroup列表  (5.8 InstanceGroup)<br>
+　　　　是否必须：是
     
 * **返回参数**
 
