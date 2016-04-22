@@ -15,3 +15,5 @@
 [**7. DescribeCluster**](describecluster.md)
 
 [**8. RunJobFlow**](runjobflow.md)
+
+[**9. AddInstanceGroups**](addinstancegroups.md)
