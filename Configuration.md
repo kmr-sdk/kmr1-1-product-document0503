@@ -9,7 +9,7 @@
 　　　　是否必须：否<br>
 　　　　可选值：
     
-|Classification|	FileName|
+|  Classification|	FileName|
 |:|:|
 |core-site|	core-site.xml|
 |hdfs-site |	hdfs-site.xml|
