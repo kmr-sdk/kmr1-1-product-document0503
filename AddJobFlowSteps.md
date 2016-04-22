@@ -9,12 +9,17 @@
 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
-　　**JobFlowIds.member.N**
+　　**JobFlowId**
   
-　　　　需要释放的集群ID列表。<br>
-　　　　类型：String列表<br>
-　　　　长度限制：最小0个，最大10个<br>
+　　　　需要添加作业的目标集群ID。<br>
+　　　　类型：String<br>
 　　　　是否必须：是
+    
+　　Steps.member.N
+  
+　　　　需要添加的自定义作业列表。<br>
+　　　　类型：StepConfig 列表 （5.3 StepConfig）<br>
+　　　　是否必须：是　
     
 * **返回参数**
 
