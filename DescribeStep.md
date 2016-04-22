@@ -65,25 +65,23 @@ X-Ksc-Target: ElasticMapReduce_V1.DescribeStep
 ```
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: xxx
+Content-Length: 2
 {
-    "Marker": null,
-    "Steps": [
-        {
+    "Step": {
             "Status": {
                 "State": "RUNNING"
             },
-            "HadoopJarStep": {
+"HadoopJarStep": {
                 "Args": [
                     "-input",
                     "ks3://yourbucket/input",
-                    "-output",
-                    "ks3://yourbucket/output",
-                    "-mapper",
-                    "ks3://yourbucket/mapper.py",
-                    "-reducer"
-                    "ks3://yourbucket/reducer.py",
-                    "-numMapTasks",
+"-output",
+"ks3://yourbucket/output",
+"-mapper",
+"ks3://yourbucket/mapper.py",
+                  "-reducer"
+"ks3://yourbucket/reducer.py",
+"-numMapTasks",
                     "1",
                     "-numReduceTasks",
                     "1",
@@ -93,14 +91,10 @@ Content-Length: xxx
                 "Jar": "ks3://kmr/libs/hadoop-streaming.jar",
                 "Properties": {}
             },
-            "DurationMins": 2,
-            "Name": "streaming-type-job"
+"Name": "streaming-type-job"
             "ActionOnFailure": "CONTINUE",
-            "StepType": "MapReduce",
-            "Id": "56964e88c-cb6e-4592-be97-53a5e2a2bfde",
-            "CreatedAt": "2016-01-08T12:10:07"
-        }
-    ]
+            "Id": "56964e88c-cb6e-4592-be97-53a5e2a2bfde"
+    }
 }
 ```
 
