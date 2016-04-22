@@ -9,7 +9,8 @@
 　　**NodeGroups**
   
 　　　　引导操作运行的实例组类型<br>
-  　　　类型：string列表，合法值有：MASTER、CORE、TASK<br>
+　　　　类型：string列表<br>
+　　　　合法值：MASTER | CORE | TASK<br>
 　　　　是否必须：否，如果不填默认在所有节点上都运行
     
 　　**ScriptBootstrapAction**
