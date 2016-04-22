@@ -2,7 +2,7 @@
 
 [**1. AddJobFlowSteps**](AddJobFlowSteps.md)
 
-[**2. TerminateJobFlows**](terminatejobflows.md)
+[**2. ListSteps**](ListSteps.md)
 
 [**3. SetTerminationProtection**](setterminationprotection.md)
 
