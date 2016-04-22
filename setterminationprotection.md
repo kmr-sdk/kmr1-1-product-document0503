@@ -20,6 +20,12 @@
 　　　　长度限制：最小0个，最大10个<br>
 　　　　是否必须：是
     
+　　**TerminationProtected**
+    
+　　　　指示是否开启释放保护功能的布尔值。<br>
+　　　　类型：Boolean<br>
+　　　　是否必须：是
+    
 * **返回参数**
 
 　　返回结果不包含任何字段
@@ -45,10 +51,12 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.TerminateJobFlows
+X-Ksc-Target: ElasticMapReduce_V1.SetTerminationProtection
 {
-    "JobFlowIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"]
-}```
+    "JobFlowIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"],
+    "TerminationProtected": true
+}
+```
 
 
 　　**返回样例**
