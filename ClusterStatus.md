@@ -1,6 +1,8 @@
-5.2 ClusterStatus
-State
-集群状态。
-类型：String
-可选值：STARTING | RUNNING | TERMINATING | TERMINATED | TERMINATED_WITH_ERRORS
-是否必须：否
+## ClusterStatus
+
+　　**State**
+  
+　　　　集群状态。<br>
+　　　　类型：String<br>
+　　　　可选值：STARTING | RUNNING | TERMINATING | TERMINATED | TERMINATED_WITH_ERRORS<br>
+　　　　是否必须：否
