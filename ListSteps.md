@@ -74,9 +74,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: xxx
 {
-    "StepIds": [
-         "56964e88c-cb6e-4592-be97-53a5e2a2bfde"
-      ]
+    "Marker": null,
+    "Steps": [
+        {
+            "Status": {
+                "State": "RUNNING"
+            },
+"HadoopJarStep": {
+                "Args": [
+                    "-input",
+                    "ks3://yourbucket/input",
+"-output",
+"ks3://yourbucket/output",
+"-mapper",
+"ks3://yourbucket/mapper.py",
+                  "-reducer"
+"ks3://yourbucket/reducer.py",
+"-numMapTasks",
+                    "1",
+                    "-numReduceTasks",
+                    "1",
+                    "-args",
+                    ""
+                ],
+                "Jar": "ks3://kmr/libs/hadoop-streaming.jar",
+                "Properties": {}
+            },
+            "DurationMins": 2,
+"Name": "streaming-type-job"
+            "ActionOnFailure": "CONTINUE",
+            "StepType": "MapReduce",
+            "Id": "56964e88c-cb6e-4592-be97-53a5e2a2bfde",
+            "CreatedAt": "2016-01-08T12:10:07"
+        }
+    ]
 }
 ```
 
