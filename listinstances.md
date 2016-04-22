@@ -35,7 +35,15 @@
     
 * **返回参数**
 
-　　返回结果不包含任何字段
+　　返回结果包含以下字段：
+  
+　　Instances
+　　　　Instance结果
+　　　　类型：Instance列表 (5.10 Instance) 
+    
+　　Marker
+　　　　用于获取下一页结果集的分页标识
+　　　　类型：String
 
 * **错误信息**
 
