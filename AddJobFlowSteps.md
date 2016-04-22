@@ -91,7 +91,7 @@ Content-Type: application/json
 Content-Length: xxx
 {
     "StepIds": [
-"56964e88c-cb6e-4592-be97-53a5e2a2bfde"
+         "56964e88c-cb6e-4592-be97-53a5e2a2bfde"
       ]
 }
 ```
