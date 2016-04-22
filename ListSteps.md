@@ -80,17 +80,17 @@ Content-Length: xxx
             "Status": {
                 "State": "RUNNING"
             },
-"HadoopJarStep": {
+            "HadoopJarStep": {
                 "Args": [
                     "-input",
                     "ks3://yourbucket/input",
-"-output",
-"ks3://yourbucket/output",
-"-mapper",
-"ks3://yourbucket/mapper.py",
-                  "-reducer"
-"ks3://yourbucket/reducer.py",
-"-numMapTasks",
+                    "-output",
+                    "ks3://yourbucket/output",
+                    "-mapper",
+                    "ks3://yourbucket/mapper.py",
+                    "-reducer"
+                    "ks3://yourbucket/reducer.py",
+                    "-numMapTasks",
                     "1",
                     "-numReduceTasks",
                     "1",
@@ -101,7 +101,7 @@ Content-Length: xxx
                 "Properties": {}
             },
             "DurationMins": 2,
-"Name": "streaming-type-job"
+            "Name": "streaming-type-job"
             "ActionOnFailure": "CONTINUE",
             "StepType": "MapReduce",
             "Id": "56964e88c-cb6e-4592-be97-53a5e2a2bfde",
