@@ -52,9 +52,10 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.ListSteps
+X-Ksc-Target: ElasticMapReduce_V1.DescribeStep
 {
-    "StepStates": ["RUNNING", "PENDING"]
+    "ClusterId": "366bb23b-ef63-494d-acb8-3d26d6375da9",
+    "StepId": "56964e88c-cb6e-4592-be97-53a5e2a2bfde"
 }
 ```
 
