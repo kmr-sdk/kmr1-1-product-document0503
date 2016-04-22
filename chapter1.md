@@ -8,7 +8,7 @@
 
 　　2.选择“集群管理”,点击“新建集群”按钮，默认进入集群快速创建向导
 
-![快速体验2](./images/ksty2.png)
+　　![快速体验2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm2.png)
 
 　　3.“基本信息”模块修改集群名称，保持集群默认配置
 
