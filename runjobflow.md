@@ -67,10 +67,10 @@
 
 　　返回结果包含以下字段：
   
-　　**Cluster**
+　　**JobFlowId**
   
-　　　　请求中集群的详细信息<br>
-　　　　类型：ClusterConfig  （5.1 ClusterConfig） 
+　　　　创建成功的集群ID<br>
+　　　　类型：String 
 
 * **错误信息**
 
