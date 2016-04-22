@@ -1,10 +1,12 @@
 ## Configuration
 
 　　所创建集群的配置信息。
-　　Classification
-　　　　配置信息类别
-　　　　类型：String
-　　　　是否必须：否
+  
+　　**Classification**
+  
+　　　　配置信息类别<br>
+　　　　类型：String<br>
+　　　　是否必须：否<br>
 　　　　可选值：
     
 |Classification|	FileName|
@@ -30,14 +32,15 @@
 
 　　**Properties**
   
-　　　　配置信息属性和值的集合
-　　　　Type：map<string, string>
+　　　　配置信息属性和值的集合<br>
+　　　　Type：map<string, string><br>
 　　　　是否必须：否
     
 　　**Configurations**
-　　　　Configuration列表
-　　　　类型：Configuration列表
+　　　　Configuration列表<br>
+　　　　类型：Configuration列表<br>
 　　　　是否必须：否
+    
 　　Configuration类型数据示例：
 
 
