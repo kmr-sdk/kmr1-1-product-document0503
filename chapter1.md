@@ -26,7 +26,7 @@
 
 　　8.集群创建完成后点击“详情”
 
-![快速体验5](./images/ksty5.png)
+    ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm5.png)
 
 　　9.在节点配置项中点击“展开/收起”可以查看集群节点的详细信息
 
