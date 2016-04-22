@@ -10,34 +10,34 @@
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
 　　ClusterId
-		需要查询的集群ID。
-类型：String
-是否必须：是
-StepIds
-   需要列出的作业ID，用于过滤条件。
-类型：Sting列表
-是否必须：否
+　　　　需要查询的集群ID。
+　　　　类型：String
+　　　　是否必须：是
+　　StepIds
+  　　 需要列出的作业ID，用于过滤条件。
+　　　　类型：Sting列表
+　　　　是否必须：否
 
-StepStates.member.N
-需要列出的集群状态。
-类型：String列表
-可选值：PENDING | RUNNING | COMPLETED | CANCELLED | FAILED | INTERRUPTED | TRANSFERINGLOG 
-是否必须：否
-Marker
-分页标识。
-类型：String
-是否必须：否
+　　StepStates.member.N
+　　　　需要列出的集群状态。
+　　　　类型：String列表
+　　　　可选值：PENDING | RUNNING | COMPLETED | CANCELLED | FAILED | INTERRUPTED | TRANSFERINGLOG 
+　　　　是否必须：否
+　　Marker
+　　　　分页标识。
+　　　　类型：String
+　　　　是否必须：否
     
 * **返回参数**
 
 　　返回结果包含以下字段：
   
-　Steps
-满足请求中给出的过滤条件的作业列表。
-类型：Step列表 （5.4 Step）
-Marker
-用于获取下一页结果集的分页标识。
-类型：String
+　　Steps
+　　　　满足请求中给出的过滤条件的作业列表。
+　　　　类型：Step列表 （5.4 Step）
+　　Marker
+　　　　用于获取下一页结果集的分页标识。
+　　　　类型：String
 
 * **错误信息**
 
