@@ -9,7 +9,7 @@
 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
-　　ClusterId
+　　**ClusterId**
   
 　　　　需要查询的集群ID。<br>
 　　　　类型：String<br>
@@ -17,7 +17,7 @@
     
 　　StepIds
   
-  　　 需要列出的作业ID，用于过滤条件。<br><br>
+　　　　需要列出的作业ID，用于过滤条件。<br>
 　　　　类型：Sting列表<br>
 　　　　是否必须：否
 
