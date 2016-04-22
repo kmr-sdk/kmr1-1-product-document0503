@@ -4,7 +4,7 @@
   
 　　1.登录金山云控制台，选择数据分析->KMR
 
-![快速体验1](./images/ksty1.png)
+![快速体验1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm1.png)
 
 　　2.选择“集群管理”,点击“新建集群”按钮，默认进入集群快速创建向导
 
