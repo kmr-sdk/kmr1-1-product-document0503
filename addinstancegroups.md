@@ -9,14 +9,17 @@
 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
-　　ClusterId
-需要添加实例组信息的集群标识。
-类型：String
-是否必须：是
-InstanceGroups
-InstanceGroupConfig类型列表
-类型：InstanceGroupConfig列表  (5.13 InstanceGroupConfig)
-是否必须：是
+　　**ClusterId**
+  
+　　　　需要添加实例组信息的集群标识。
+　　　　类型：String
+　　　　是否必须：是
+    
+　　InstanceGroups
+  
+　　　　InstanceGroupConfig类型列表
+　　　　类型：InstanceGroupConfig列表  (5.13 InstanceGroupConfig)
+　　　　是否必须：是
     　　
 * **返回参数**
 
@@ -69,9 +72,10 @@ X-Ksc-Target: ElasticMapReduce_V1.AddInstanceGroups
 ```
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: xxx
-{
-  "JobFlowId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
+Content-Length: 2
+{ "InstanceGroupIds": [
+    "bb26aa5a-4032-4b0d-9037-82c6b715c241"
+  ] 
 }
 ```
 
