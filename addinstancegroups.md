@@ -18,7 +18,7 @@
 　　**InstanceGroups**
   
 　　　　InstanceGroupConfig类型列表<br>
-　　　　类型：InstanceGroupConfig列表  (5.13 InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表  (5.13 [InstanceGroupConfig](InstanceGroupConfig.md))<br>
 　　　　是否必须：是
     　　
 * **返回参数**
