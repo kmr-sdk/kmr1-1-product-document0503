@@ -43,14 +43,11 @@
 　　**请求样例**
 
 ```
-GET / HTTP/1.1
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.ListInstances
+X-Ksc-Target: ElasticMapReduce_V1.DescribeCluster
 {
-    "ClusterId": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e",
-    "InstanceGroupId": "",
-    "InstanceGroupTypes": ["MASTER"]
+    "ClusterId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
 }
 ```
 
