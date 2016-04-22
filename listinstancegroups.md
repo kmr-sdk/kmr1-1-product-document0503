@@ -25,14 +25,14 @@
 
 　　返回结果包含以下字段：
   
-　　InstanceGroups
+　　**InstanceGroups**
   
-　　　　基于给定过滤条件返回指定集群的实例组列表
+　　　　基于给定过滤条件返回指定集群的实例组列表<br>
 　　　　类型：InstanceGroup 列表  (5.8 InstanceGroup) 
 
-　　Marker
+　　**Marker**
   
-　　　　用于获取下一页结果集的分页标识
+　　　　用于获取下一页结果集的分页标识<br>
 　　　　类型：String
 
 * **错误信息**
