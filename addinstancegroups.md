@@ -11,27 +11,25 @@
   
 　　**ClusterId**
   
-　　　　需要添加实例组信息的集群标识。
-　　　　类型：String
+　　　　需要添加实例组信息的集群标识。<br>
+　　　　类型：String<br>
 　　　　是否必须：是
     
-　　InstanceGroups
+　　**InstanceGroups**
   
-　　　　InstanceGroupConfig类型列表
-　　　　类型：InstanceGroupConfig列表  (5.13 InstanceGroupConfig)
+　　　　InstanceGroupConfig类型列表<br>
+　　　　类型：InstanceGroupConfig列表  (5.13 InstanceGroupConfig)<br>
 　　　　是否必须：是
     　　
 * **返回参数**
 
 　　返回结果包含以下字段：
   
-　　**JobFlowId**
+　　**InstanceGroupIds**
   
-　　　　创建成功的集群ID<br>
-　　　　类型：String 
-InstanceGroupIds
-添加成功的实例组ID列表。
-类型：String列表
+　　　　添加成功的实例组ID列表。
+　　　　类型：String列表
+    
 * **错误信息**
 
 　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
