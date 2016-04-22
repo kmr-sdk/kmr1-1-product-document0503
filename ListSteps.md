@@ -15,20 +15,20 @@
 　　　　类型：String<br>
 　　　　是否必须：是
     
-　　StepIds
+　　**StepIds**
   
 　　　　需要列出的作业ID，用于过滤条件。<br>
 　　　　类型：Sting列表<br>
 　　　　是否必须：否
 
-　　StepStates.member.N
+　　**StepStates.member.N**
   
 　　　　需要列出的集群状态。<br>
 　　　　类型：String列表<br>
 　　　　可选值：PENDING | RUNNING | COMPLETED | CANCELLED | FAILED | INTERRUPTED | TRANSFERINGLOG <br>
 　　　　是否必须：否
     
-　　Marker
+　　**Marker**
   
 　　　　分页标识。<br>
 　　　　类型：String<br>
@@ -38,12 +38,12 @@
 
 　　返回结果包含以下字段：
   
-　　Steps
+　　**Steps**
   
 　　　　满足请求中给出的过滤条件的作业列表。<br>
 　　　　类型：Step列表 （5.4 Step）
     
-　　Marker
+　　**Marker**
   
 　　　　用于获取下一页结果集的分页标识。<br>
 　　　　类型：String
