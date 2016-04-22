@@ -27,7 +27,7 @@
   
 　　**InstanceGroupIds**
   
-　　　　添加成功的实例组ID列表。
+　　　　添加成功的实例组ID列表。<br>
 　　　　类型：String列表
     
 * **错误信息**
