@@ -11,3 +11,5 @@
 [**5. ModifyInstanceGroups**](modifyinstancegroups.md)
 
 [**6. ListInstances**](listinstances.md)
+
+[**7. DescribeCluster**](describecluster.md)
