@@ -4,7 +4,7 @@
   
 　　1.填写计划基本信息
 
-![基本信息](./images/zxjh1.png)
+![基本信息](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zxjh1.png)
 
 
 | 字段 | 操作 |
@@ -16,7 +16,7 @@
 
 　　2.填写计划执行策略
 
-![执行策略](./images/zxjh2.png)
+![执行策略](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zxjh2.png)
 
 | 字段 | 操作 |
 | -- | -- |
@@ -26,4 +26,4 @@
 
 　　3.设置作业信息，选择集群模板后，自动载入该模板内的作业
 
-![作业](./images/zxjh3.png)
+![作业](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zxjh3.png)
