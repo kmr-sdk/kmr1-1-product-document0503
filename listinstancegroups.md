@@ -28,7 +28,7 @@
 　　**InstanceGroups**
   
 　　　　基于给定过滤条件返回指定集群的实例组列表<br>
-　　　　类型：InstanceGroup 列表  (5.8 InstanceGroup) 
+　　　　类型：InstanceGroup 列表  (5.8 [InstanceGroup](InstanceGroup.md)) 
 
 　　**Marker**
   
