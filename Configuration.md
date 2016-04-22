@@ -33,7 +33,7 @@
 　　**Properties**
   
 　　　　配置信息属性和值的集合<br>
-　　　　Type：ｍａｐ
+　　　　Type：map\<string,string>\
     
 　　**Configurations**
   
