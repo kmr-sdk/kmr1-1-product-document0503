@@ -22,7 +22,7 @@
 
 　　7.保持默认的作业配置，这里会执行一个标准的MapReduce作业，计算一套英文小说的单词数，点击“确定”关闭对话框，并点击“创建集群”
 
-![快速体验4](./images/ksty4.png)
+　　![快速体验4](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm4.png)
 
 　　8.集群创建完成后点击“详情”
 
