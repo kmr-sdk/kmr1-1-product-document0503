@@ -4,4 +4,4 @@
   
   ![模板详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jqmb2.png)
   
-  ![作业详情](./images/jqmb3.png)
+  
