@@ -9,3 +9,5 @@
 [**4. ListInstanceGroups**](listinstancegroups.md)
 
 [**5. ModifyInstanceGroups**](modifyinstancegroups.md)
+
+[**6. ListInstances**](listinstances.md)
