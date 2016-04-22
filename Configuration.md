@@ -33,10 +33,11 @@
 　　**Properties**
   
 　　　　配置信息属性和值的集合<br>
-　　　　Type：map<string, string> <br>
+　　　　Type：map<string, string> 
 　　　　是否必须：否
     
 　　**Configurations**
+  
 　　　　Configuration列表<br>
 　　　　类型：Configuration列表<br>
 　　　　是否必须：否
