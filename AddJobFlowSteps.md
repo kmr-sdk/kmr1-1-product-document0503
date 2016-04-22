@@ -18,7 +18,7 @@
 　　**Steps.member.N**
   
 　　　　需要添加的自定义作业列表。<br>
-　　　　类型：StepConfig 列表 （5.3 StepConfig）<br>
+　　　　类型：StepConfig 列表 （5.3 [StepConfig](StepConfig.md)）<br>
 　　　　是否必须：是　
     
 * **返回参数**
