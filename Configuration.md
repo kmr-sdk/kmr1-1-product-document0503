@@ -9,7 +9,7 @@
     
   |Classification|	FileName|
   |:|:|
-|core-site|	core-site.xml|
+  |core-site|	core-site.xml|
 hdfs-site	hdfs-site.xml
 mapred-site	mapred-site.xml
 yarn-site	yarn-site.xml
