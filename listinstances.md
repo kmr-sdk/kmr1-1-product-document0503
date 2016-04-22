@@ -82,9 +82,22 @@ X-Ksc-Target: ElasticMapReduce_V1.ListInstances
   
 ```
 HTTP/1.1 200 OK
-Content-Type: application/json
-Content-Length: 2
-{}
+  Content-Type: application/json
+Content-Length: 186
+Date: Thu, 07 Jan 2016 02:57:57 GMT
+{
+  "Marker": null,
+  "Instances": [
+    {
+      "Status": {
+        "State": "RUNNING"
+      },
+      "Id": "079d2b1f-cb1f-4365-acbb-c1b3f7424831",
+      "PrivateIpAddress": "10.168.113.134",
+      "PublicIpAddress": "10.168.113.134"
+    }
+  ]
+}
 ```
 
 
