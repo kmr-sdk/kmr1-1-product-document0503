@@ -14,12 +14,12 @@
     
 　　**MainClass**
   
-　　　　指定jave file中main classs名称。如果没有指定，jar file需要在manifest文件中指定。
-　　　　类型：String
+　　　　指定jave file中main classs名称。如果没有指定，jar file需要在manifest文件中指定。<br>
+　　　　类型：String<br>
 　　　　是否必须：否
     
 　　**Properties**
   
-　　　为作业运行指定key-value列表，你可以在你的主函数中使用这些key-value。
-　　　类型：KeyValue 列表
+　　　为作业运行指定key-value列表，你可以在你的主函数中使用这些key-value。<br>
+　　　类型：KeyValue 列表<br>
 　　　是否必须：否
