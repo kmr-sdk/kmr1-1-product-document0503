@@ -65,6 +65,7 @@ X-Ksc-Target: ElasticMapReduce_V1.SetTerminationProtection
 HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: 2
-{}```
+{}
+```
 
 
