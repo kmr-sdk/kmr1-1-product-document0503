@@ -35,11 +35,11 @@
 　　**Status**
   
 　　　　实例组状态<br>
-　　　　类型：InstanceGroupStatus  （5.9 InstanceGroupStatus）<br>
+　　　　类型：InstanceGroupStatus  （5.9 [InstanceGroupStatus]( InstanceGroupStatus.md)）<br>
 　　　　是否必须：否
     
 　　**Configurations**
   
 　　　　实例组配置信息，可以针对每个实例组单独设置配置项<br>
-　　　　类型：Configuration列表（5.14 Configuration）<br>
+　　　　类型：Configuration列表（5.14 [Configuration](Configuration.md)）<br>
 　　　　是否必须：否
