@@ -26,15 +26,15 @@
 
 　　8.集群创建完成后点击“详情”
 
-    ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm5.png)
+   ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm5.png)
 
 　　9.在节点配置项中点击“展开/收起”可以查看集群节点的详细信息
 
-![快速体验6](./images/ksty6.png)
+![快速体验6](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm6.png)
 
-　　10.选择“作业管理”，可以查看刚刚创建的作业状态
+　　10.选择“作业列表”，可以查看刚刚创建的作业状态
 
-![快速体验7](./images/ksty7.png)
+![快速体验7](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm7.png)
 
 　　11.当作业状态变为“已完成”时，返回“集群详情页面”，关闭“集群释放保护”，点击“释放集群”，至此，集群资源被回收，您已完成了KMR的快速体验。
 
