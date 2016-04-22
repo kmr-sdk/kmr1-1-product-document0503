@@ -93,9 +93,38 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.DescribeCluster
+X-Ksc-Target: ElasticMapReduce_V1.RunJobFlow
 {
-    "ClusterId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
+  "Name": "api-test",
+  "Instances": {
+    "InstanceGroups" : [
+      {
+        "InstanceType" : "kmr.general",
+        "InstanceCount" : 1,
+        "InstanceGroupType" : "MASTER"
+      },
+      {
+        "InstanceType" : "kmr.general",
+        "InstanceCount" : 2,
+        "InstanceGroupType" : "CORE"
+      },
+      KeepJobFlowAliveWhenNoSteps: False
+    ]
+  },
+  "Steps": [
+        {
+            "ActionOnFailure": "CONTINUE",
+            "Name": "java_test",
+            "HadoopJarStep": {
+                "Args": [
+                    "ks3://kmr-bj-test/input",
+                    "ks3://kmr-bj-test/output"
+                ],
+                "Jar": "ks3://kmr-bj-test/jobtest/job.jar",
+                "MainClass": "org.apache.hadoop.examples.WordCount"
+            }
+        }
+    ]
 }
 ```
 
@@ -107,22 +136,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: xxx
 {
-  "InstanceAttributes": [],
-  "Name": "lxk-quota-test-0",
-  "ServiceRole": null,
-  "TerminationProtected": false,
-  "HadoopVersion": "hadoop 2.6.0",
-  "LogUri": "ks3://kmrhkbj/lxk-log",
-  "AutoTerminate": false,
-  "Status": {
-    "State": "RUNNING"
-  },
-  "MasterPublicDnsName": "120.168.113.60",
-  "NormalizedInstanceMins": 1333,
-  "Applications": [
-    "hadoop"
-  ],
-  "Id": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
+  "JobFlowId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
 }
 ```
 
