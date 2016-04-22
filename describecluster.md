@@ -19,10 +19,10 @@
 
 　　返回结果包含以下字段：
   
-　　**Instances**
+　　**Cluster**
   
-　　　　Instance结果<br>
-　　　　类型：Instance列表 (5.10 Instance) 
+　　　　请求中集群的详细信息<br>
+　　　　类型：ClusterConfig  （5.1 ClusterConfig） 
     
 　　**Marker**
   
