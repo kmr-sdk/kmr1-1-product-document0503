@@ -15,18 +15,23 @@
 　　　　类型：String<br>
 　　　　是否必须：是
     
-　InstanceGroupId
-需要列出实例的实例组ID，如果不提供默认值，列出所有实例组的实例
-类型：String
-是否必须：否
-InstanceGroupTypes
-需要列出的实例的实例组角色，合法的实例组角色有: MASTER、CORE、TASK，如果不提供默认提供所有角色的实例组中的实例
-类型：String列表
-是否必须：否
-Marker
-分页标识。
-类型：String
-是否必须：否
+　　InstanceGroupId
+  
+　　　　需要列出实例的实例组ID，如果不提供默认值，列出所有实例组的实例
+　　　　类型：String
+　　　　是否必须：否
+    
+　　InstanceGroupTypes
+  
+　　　　需要列出的实例的实例组角色，合法的实例组角色有: MASTER、CORE、TASK，如果不提供默认提供所有角色的实例组中的实例
+　　　　类型：String列表
+　　　　是否必须：否
+    
+　　Marker
+  
+　　　　分页标识。
+　　　　类型：String
+　　　　是否必须：否
     
 * **返回参数**
 
