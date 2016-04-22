@@ -27,6 +27,6 @@
    * [简介](jian_jie.md)
    * [通用请求](tong_yong_qing_qiu.md)
    * [集群操作请求](ji_qun_cao_zuo_qing_qiu.md)
-   * 作业操作请求
+   * [作业操作请求](zuo_ye_cao_zuo_qing_qiu.md)
 * [SDK使用手册](sdkshi_yong_shou_ce.md)
 
