@@ -18,7 +18,7 @@
 
 　　6.“作业设置”模块，点击“添加示例作业”，选择一个示例 
 
-　　![快速体验3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm３.png)
+　　![快速体验3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm3.png)
 
 　　7.保持默认的作业配置，这里会执行一个标准的MapReduce作业，计算一套英文小说的单词数，点击“确定”关闭对话框，并点击“创建集群”
 
