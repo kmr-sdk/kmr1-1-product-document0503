@@ -10,7 +10,7 @@
 　　**HadoopJarStep**
   
 　　　　配置作业使用的jar file。<br>
-　　　　类型：HadoopJarStepConfig （5.5 　HadoopJarStepConfig）<br>
+　　　　类型：HadoopJarStepConfig （5.5 　[HadoopJarStepConfig](HadoopJarStepConfig.md)）<br>
 　　　　是否必须：否
     
 　　**Name**
@@ -29,5 +29,5 @@
 　　**Status **
   
 　　　　作业状态。<br>
-　　　　类型：StepStatus  （5.6 StepStatus）<br>
+　　　　类型：StepStatus  （5.6 [StepStatus](StepStatus.md)）<br>
 　　　　是否必须：否
