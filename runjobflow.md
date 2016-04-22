@@ -9,45 +9,46 @@
 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
-　　HadoopVersion
+　　**HadoopVersion**
   
-　　　　Hadoop发行版本说明。当前仅支持“hadoop 2.6.0”，如果不填则默认试用“hadoop 2.6.0”。
-　　　　类型：String
+　　　　Hadoop发行版本说明。当前仅支持“hadoop 2.6.0”，如果不填则默认试用“hadoop 2.6.0”。　<br>
+　　　　类型：String<br>
 　　　　是否必须：否
     
-　　Applications.member.N
-　　　　安装应用列表。可选值为“hadoop”，“hive”，“pig”与“spark”，区分大小写。如果不填则默认为“hadoop”。
-　　　　类型：String列表
+　　**Applications.member.N**
+  
+　　　　安装应用列表。可选值为“hadoop”，“hive”，“pig”与“spark”，区分大小写。如果不填则默认为“hadoop”。<br>
+　　　　类型：String列表<br>
 　　　　是否必须：否
     
-　　Instances
+　　**Instances**
   
-　　　　集群里虚机的配置和数目信息。
-　　　　类型：JobFlowInstancesConfig   (5.12 JobFlowInstancesConfig)
+　　　　集群里虚机的配置和数目信息。<br>
+　　　　类型：JobFlowInstancesConfig   (5.12 JobFlowInstancesConfig)<br>
 　　　　是否必须：是
     
-　　LogUri
+　　**LogUri**
   
-　　　　日志输出的KS3路径，格式为：“KS3://bucket/object_key”。如果不填则日志不会输出到KS3。
-　　　　类型：String
+　　　　日志输出的KS3路径，格式为：“KS3://bucket/object_key”。如果不填则日志不会输出到KS3。<br>
+　　　　类型：String<br>
 　　　　是否必须：否
     
-　　Name
+　　**Name**
   
-　　　　集群的名称。仅支持大小写字母、数字、减号和下划线。
-　　　　类型：String
+　　　　集群的名称。仅支持大小写字母、数字、减号和下划线。<br>
+　　　　类型：String<br>
 　　　　是否必须：是
     
-　　Steps.member.N
+　　**Steps.member.N**
   
-　　　　自定义需要运行的作业列表。
-　　　　类型：StepConfig列表 （5.3 StepConfig）
+　　　　自定义需要运行的作业列表。<br>
+　　　　类型：StepConfig列表 （5.3 StepConfig）<br>
 　　　　是否必须：否
     
-　　EnableEIP
+　　**EnableEIP**
   
-　　　　是否启用eip信息，如果设置为True，则集群的Master节点会被分配一个外网ip，默认为False。
-　　　　类型：String
+　　　　是否启用eip信息，如果设置为True，则集群的Master节点会被分配一个外网ip，默认为False。<br>
+　　　　类型：String<br>
 　　　　是否必须：否
     
 　　Configurations.member.N
