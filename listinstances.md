@@ -40,7 +40,7 @@
 　　**Instances**
   
 　　　　Instance结果<br>
-　　　　类型：Instance列表 (5.10 Instance) 
+　　　　类型：Instance列表 (5.10 [Instance](Instance.md)) 
     
 　　**Marker**
   
