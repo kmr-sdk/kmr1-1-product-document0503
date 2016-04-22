@@ -5,3 +5,5 @@
 [**2. TerminateJobFlows**](terminatejobflows.md)
 
 [**3. SetTerminationProtection**](setterminationprotection.md)
+
+[**4. ListInstanceGroups**](listinstancegroups.md)
