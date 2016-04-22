@@ -38,6 +38,6 @@
 
 　　11.当作业状态变为“已完成”时，返回“集群详情页面”，关闭“集群释放保护”，点击“释放集群”，至此，集群资源被回收，您已完成了KMR的快速体验。
 
-![快速体验8](./images/ksty8.png)
+![快速体验8](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm8.png)
 
-![快速体验9](./images/ksty9.png)
+![快速体验9](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm9.png)
