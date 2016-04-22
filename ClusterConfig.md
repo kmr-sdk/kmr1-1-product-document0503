@@ -15,7 +15,8 @@
     
 　　**HadoopVersion**
   
-　　　　集群选用的Hadoop发型版本信息。现阶段均为“hadoop 2.6.0”。<br>
+　　　　集群选用的Hadoop发型版本信息。现阶段均为“kmr-1.0.0
+”。<br>
 　　　　类型：String<br>
 　　　　是否必须：否
     
