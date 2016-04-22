@@ -50,37 +50,15 @@ InstanceGroupIds
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.RunJobFlow
+X-Ksc-Target: ElasticMapReduce_V1.AddInstanceGroups
 {
-  "Name": "api-test",
-  "Instances": {
-    "InstanceGroups" : [
-      {
-        "InstanceType" : "kmr.general",
-        "InstanceCount" : 1,
-        "InstanceGroupType" : "MASTER"
-      },
-      {
-        "InstanceType" : "kmr.general",
-        "InstanceCount" : 2,
-        "InstanceGroupType" : "CORE"
-      },
-      KeepJobFlowAliveWhenNoSteps: False
-    ]
-  },
-  "Steps": [
+    "ClusterId": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e",
+    "InstanceGroups": [
         {
-            "ActionOnFailure": "CONTINUE",
-            "Name": "java_test",
-            "HadoopJarStep": {
-                "Args": [
-                    "ks3://kmr-bj-test/input",
-                    "ks3://kmr-bj-test/output"
-                ],
-                "Jar": "ks3://kmr-bj-test/jobtest/job.jar",
-                "MainClass": "org.apache.hadoop.examples.WordCount"
-            }
-        }
+            "InstanceGroupType": "TASK",
+	            "InstanceCount": 1,
+	            "InstanceType": "kmr.compute"
+}
     ]
 }
 ```
