@@ -2,14 +2,14 @@
 
 　　**Args**
   
-　　　　指定命令行列表传递给jar file的main函数。
-　　　　类型：String列表
+　　　　指定命令行列表传递给jar file的main函数。<br>
+　　　　类型：String列表<br>
 　　　　是否必须：否
     
 　　**Jar**
   
-　　　　指定作业的jar file路径。
-　　　　类型：String
+　　　　指定作业的jar file路径。<br>
+　　　　类型：String<br>
 　　　　是否必须：是
     
 　　**MainClass**
