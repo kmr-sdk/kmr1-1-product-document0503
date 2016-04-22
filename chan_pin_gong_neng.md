@@ -4,7 +4,7 @@
   
 　　**弹性扩展**
   
-  ![弹性扩展](./images/txkz.png)
+  ![弹性扩展](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/txkz.png)
 
 　　KMR集群具备良好的横向扩展能力，您可以根据业务需求弹性的增加或者减少节点，适应多变的业务场景，节省集群使用成本。
   
