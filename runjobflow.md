@@ -24,7 +24,7 @@
 　　**Instances**
   
 　　　　集群里虚机的配置和数目信息。<br>
-　　　　类型：JobFlowInstancesConfig   (5.12 JobFlowInstancesConfig)<br>
+　　　　类型：JobFlowInstancesConfig   (5.12 [JobFlowInstancesConfig](JobFlowInstancesConfig.md))<br>
 　　　　是否必须：是
     
 　　**LogUri**
@@ -42,7 +42,7 @@
 　　**Steps.member.N**
   
 　　　　自定义需要运行的作业列表。<br>
-　　　　类型：StepConfig列表 （5.3 StepConfig）<br>
+　　　　类型：StepConfig列表 （5.3 [StepConfig](StepConfig.md)）<br>
 　　　　是否必须：否
     
 　　**EnableEIP**
@@ -54,13 +54,13 @@
 　　**Configurations.member.N**
   
 　　　　所创建集群的配置信息。<br>
-　　　　类型：Configuration列表 （5.14 Configuration）<br>
+　　　　类型：Configuration列表 （5.14 [Configuration](Configuration.md)）<br>
 　　　　是否必须：否
     
 　　**BootstrapActions.member.N**
   
 　　　　集群引导操作列表<br>
-　　　　类型：BootstrapAction列表(5.15 BootstrapAction)<br>
+　　　　类型：BootstrapAction列表(5.15 [BootstrapAction](BootstrapAction.md))<br>
 　　　　是否必须：否
     　　
 * **返回参数**
