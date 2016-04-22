@@ -29,7 +29,7 @@
 　　**Step**
   
 　　　　需要查询作业的详细信息。<br>
-　　　　类型：Step （5.4 Step）
+　　　　类型：Step （5.4 [Step](Step.md)）
     
 * **错误信息**
 
