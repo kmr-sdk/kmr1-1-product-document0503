@@ -11,7 +11,7 @@
   
 　　1.填写集群的基本信息
 
-![快速选项1](./images/ksxx1.png)
+![快速选项1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksxx1.png)
  
 | 字段| 操作|
 | -- | -- |
