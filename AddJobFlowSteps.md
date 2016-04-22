@@ -15,7 +15,7 @@
 　　　　类型：String<br>
 　　　　是否必须：是
     
-　　Steps.member.N
+　　**Steps.member.N**
   
 　　　　需要添加的自定义作业列表。<br>
 　　　　类型：StepConfig 列表 （5.3 StepConfig）<br>
