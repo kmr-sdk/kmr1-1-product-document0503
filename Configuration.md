@@ -8,7 +8,7 @@
 　　　　可选值：
     
   |Classification|	FileName|
-|:|:|
+  |:|:|
 |core-site|	core-site.xml|
 hdfs-site	hdfs-site.xml
 mapred-site	mapred-site.xml
