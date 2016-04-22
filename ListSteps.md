@@ -32,10 +32,12 @@ Marker
 
 　　返回结果包含以下字段：
   
-　　**StepIds**
-  
-　　　　添加成功的作业ID列表。<br>
-　　　　类型：String列表
+　Steps
+满足请求中给出的过滤条件的作业列表。
+类型：Step列表 （5.4 Step）
+Marker
+用于获取下一页结果集的分页标识。
+类型：String
 
 * **错误信息**
 
@@ -58,34 +60,9 @@ Marker
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.AddJobFlows
+X-Ksc-Target: ElasticMapReduce_V1.ListSteps
 {
-    "JobFlowId": "366bb23b-ef63-494d-acb8-3d26d6375da9",
-    "Steps": [
-        {
-"HadoopJarStep": {
-                "Args": [
-                    "-input",
-                    "ks3://yourbucket/input",
-                    "-output",
-                    "ks3://yourbucket/output",
-                    "-mapper",
-                    "ks3://yourbucket/mapper.py",
-                    "-reducer"
-                    "ks3://yourbucket/reducer.py",
-                    "-numMapTasks",
-                    "1",
-                    "-numReduceTasks",
-                    "1",
-                    "-args",
-                    ""],
-                "Jar": "ks3://kmr/libs/hadoop-streaming.jar",
-                "Properties": {}
-            },
-            "ActionOnFailure": "CONTINUE",
-            "Name": "streaming-type-job"
-        }
-    ]
+    "StepStates": ["RUNNING", "PENDING"]
 }
 ```
 
