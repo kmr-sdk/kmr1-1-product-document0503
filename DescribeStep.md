@@ -21,18 +21,6 @@
 　　　　类型：Sting<br>
 　　　　是否必须：是
 
-　　**StepStates.member.N**
-  
-　　　　需要列出的集群状态。<br>
-　　　　类型：String列表<br>
-　　　　可选值：PENDING | RUNNING | COMPLETED | CANCELLED | FAILED | INTERRUPTED | TRANSFERINGLOG <br>
-　　　　是否必须：否
-    
-　　**Marker**
-  
-　　　　分页标识。<br>
-　　　　类型：String<br>
-　　　　是否必须：否
     
 * **返回参数**
 
