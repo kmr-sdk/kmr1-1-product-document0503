@@ -88,7 +88,12 @@ X-Ksc-Target: ElasticMapReduce_V1.AddJobFlows
 ```
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2
-{}```
+Content-Length: xxx
+{
+    "StepIds": [
+"56964e88c-cb6e-4592-be97-53a5e2a2bfde"
+      ]
+}
+```
 
 
