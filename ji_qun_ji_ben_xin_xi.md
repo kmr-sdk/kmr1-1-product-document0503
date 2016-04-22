@@ -2,7 +2,7 @@
 
 　　1.填写集群的基本信息
 
-![基本信息1](./images/jbxx1.png)
+![基本信息1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jbxx1.png)
 
 | 字段 | 操作 |
 | -- | -- |
@@ -16,7 +16,7 @@
 
 　　2.配置集群节点
 
-![基本信息2](./images/jbxx2.png)
+![基本信息2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jbxx2.png)
 
 | 字段 | 操作 |
 | -- | -- |
@@ -28,7 +28,7 @@
 
 　　3.选择集群的软件配置
 
-![基本信息3](./images/jbxx3.png)
+![基本信息3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jbxx3.png)
 
 | 字段 | 操作 |
 | -- | -- |
