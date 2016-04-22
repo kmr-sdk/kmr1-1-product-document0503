@@ -51,10 +51,36 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.TerminateJobFlows
+X-Ksc-Target: ElasticMapReduce_V1.AddJobFlows
 {
-    "JobFlowIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"]
-}```
+    "JobFlowId": "366bb23b-ef63-494d-acb8-3d26d6375da9",
+    "Steps": [
+        {
+"HadoopJarStep": {
+                "Args": [
+                    "-input",
+                    "ks3://yourbucket/input",
+"-output",
+"ks3://yourbucket/output",
+"-mapper",
+"ks3://yourbucket/mapper.py",
+                  "-reducer"
+"ks3://yourbucket/reducer.py",
+"-numMapTasks",
+                    "1",
+                    "-numReduceTasks",
+                    "1",
+                    "-args",
+                    ""],
+                "Jar": "ks3://kmr/libs/hadoop-streaming.jar",
+                "Properties": {}
+            },
+            "ActionOnFailure": "CONTINUE",
+            "Name": "streaming-type-job"
+        }
+    ]
+}
+```
 
 
 　　**返回样例**
