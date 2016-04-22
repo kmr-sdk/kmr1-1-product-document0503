@@ -68,9 +68,34 @@ X-Ksc-Target: ElasticMapReduce_V1.ListInstanceGroups
   
 ```
 HTTP/1.1 200 OK
-Content-Type: application/json
-Content-Length: 2
-{}
+  Content-Type:application/json
+Content-Length: 462
+Date: Thu, 07 Jan 2016 02:57:57 GMT
+{
+  "Marker": null,
+  "InstanceGroups": [
+    {
+      "Status": {
+        "State": " RUNNING "
+      },
+      "InstanceCount": 2,
+      "Name": "gn-e51f56af-CORE",
+      "InstanceGroupType": "CORE",
+      "InstanceType": "kmr.compute",
+      "Id": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e-gn-e51f56af-CORE"
+    },
+    {
+      "Status": {
+        "State": " RUNNING "
+      },
+      "InstanceCount": 1,
+      "Name": "gn-e51f56af-MASTER",
+      "InstanceGroupType": "MASTER",
+      "InstanceType": "kmr.compute",
+      "Id": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e-gn-e51f56af-MASTER"
+    }
+  ]
+}
 ```
 
 
