@@ -56,10 +56,10 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.SetTerminationProtection
+X-Ksc-Target: ElasticMapReduce_V1.ListInstanceGroups
+
 {
-    "JobFlowIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"],
-    "TerminationProtected": true
+    "ClusterId": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e"
 }
 ```
 
