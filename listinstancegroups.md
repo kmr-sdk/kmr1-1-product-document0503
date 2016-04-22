@@ -15,11 +15,11 @@
 　　　　类型：String<br>
 　　　　是否必须：是
     
-　　**TerminationProtected**
+　　**Marker**
     
-　　　　指示是否开启释放保护功能的布尔值。<br>
-　　　　类型：Boolean<br>
-　　　　是否必须：是
+　　　　分页标识。<br>
+　　　　类型：String<br>
+　　　　是否必须：否
     
 * **返回参数**
 
