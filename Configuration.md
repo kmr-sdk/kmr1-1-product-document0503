@@ -27,14 +27,17 @@
 |spark-defaults|	spark-defaults.conf|
 |spark-log4j|	log4j.properties|
 |httpfs-site|	httpfs-site.xml|
-Properties
-配置信息属性和值的集合
-Type：map<string, string>
-是否必须：否
-Configurations
-Configuration列表
-类型：Configuration列表
-是否必须：否
+
+　　Properties
+  
+　　　　配置信息属性和值的集合
+　　　　Type：map<string, string>
+　　　　是否必须：否
+    
+　　Configurations
+　　　　Configuration列表
+　　　　类型：Configuration列表
+　　　　是否必须：否
 Configuration类型数据示例：
 {
 "Configurations": [
