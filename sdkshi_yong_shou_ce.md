@@ -115,7 +115,27 @@ withSshKeyIds：登录cluster节点时用的sshKey，默认为None。
 withConfigurations：集群软件配置项，默认为None。
 
 Configuration支持的Classification如下：
-![Table 2](./1458100707020.png)
+
+|Classification|	FileName|
+|:|:|
+|core-site|	core-site.xml|
+|hdfs-site |	hdfs-site.xml|
+|mapred-site|	mapred-site.xml|
+|yarn-site	|yarn-site.xml|
+|capacity-scheduler|	capacity-scheduler.xml|
+|hadoop-env	|hadoop-env.sh|
+|httpfs-env.sh|	httpfs-env.sh|
+|mapred-env|	mapred-env.sh|
+|yarn-env	|yarn-env.sh|
+|hadoop-log4j	|log4j.properties|
+|hive-env	|hive-env.sh|
+|hive-site|	hive-site.xml|
+|hive-exec-log4j|	hive-exec-log4j.properties|
+|hive-log4j	|hive-log4j.properties|
+|spark-env|	spark-env.sh|
+|spark-defaults|	spark-defaults.conf|
+|spark-log4j|	log4j.properties|
+|httpfs-site|	httpfs-site.xml|
 
 2、同步式客户端调用API
 
