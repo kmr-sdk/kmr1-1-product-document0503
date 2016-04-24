@@ -295,6 +295,7 @@ request必需参数：
 request可选参数：
 > withMarker：分页显示参数，从第几个开始显示及每页显示数量，默认为从第1个开始显示，每页显示100个。
 
+
 2、同步式客户端调用API
 
     ListInstanceGroupsResult result = kmrClient.listInstanceGroups(request);
@@ -359,7 +360,7 @@ Step状态包含：
 |  COMPLETED  |  运行完成 |
 |  CANCELLED  |  已被取消 |
 |  FAILED  |  运行失败 |
-|  INTERRUPTED  |   |
+|  INTERRUPTED  |　|
 
 
 2、同步式客户端调用API
