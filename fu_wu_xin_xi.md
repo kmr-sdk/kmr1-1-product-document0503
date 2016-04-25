@@ -4,7 +4,7 @@
  
 　　金山云KMR服务接入地址：
   
- 　　•　北京地区：kmr-cn-beijing.ksyun.com </br>
+ 　　•　北京地区：kmr-cn-beijing.ksyun.com <br/>
  　　•　上海地区：kmr-cn-shanghai.ksyun.com
 
 * 通讯协议
