@@ -19,9 +19,9 @@
 　　　　实例组中实例个数<br>
 　　　　类型：Integer<br>
 　　　　是否必须：是
-   
- 　**InstanceRoles**
   
-　　　　实例组中实例个数<br>
+　　**InstanceRoles**  
+  
+　　　　实例组<br>
 　　　　类型：Integer<br>
 　　　　是否必须：是   
