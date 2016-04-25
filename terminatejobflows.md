@@ -46,7 +46,7 @@ Content-Type: application/json
 X-Action: TerminateClusters
 X-Version: 2016-05-20
 {
-    "JobFlowIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"]
+    "ClusterIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"]
 }```
 
 
