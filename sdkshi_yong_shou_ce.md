@@ -94,11 +94,11 @@ withInstanceType: 节点配置类型
 | kmr.general |一般通用型 |4核| 15GB |400GB
 | kmr.compute   | 计算优化型|  8核 |  15GB  | 300GB
 | kmr.memory   |  内存优化型| 4核 |  30GB  |400GB
-| kmr.storage   |  存储优化型| 4核 |  7.5GB  |1000GB
+| kmr.storage   |  存储优化型| 4核 |  7.5GB  |2000GB
 | kmr.genera.2x   | 内存优化型.2x | 8核 |  30GB  |800GB
 | kmr.compute.2x   | 存储优化型.2x | 16核 |  30GB  |600GB
 | kmr.memory.2x   | 内存优化型.2x | 8核 |  60GB  |800GB
-| kmr.storage.2x   | 存储优化型.2x | 8核 |  15GB  |2000GB
+| kmr.storage.2x   | 存储优化型.2x | 8核 |  15GB  |4000GB
 
 
 request可选参数：
