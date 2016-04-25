@@ -127,6 +127,8 @@ X-Action: LaunchCluter
 X-Version: 2016-05-20
 {
   "Name": "api-test",
+  "KeepJobFlowAliveWhenNoSteps": False
+  
   "Instances": {
     "InstanceGroups" : [
       {
@@ -138,8 +140,7 @@ X-Version: 2016-05-20
         "InstanceType" : "kmr.general",
         "InstanceCount" : 2,
         "InstanceGroupType" : "CORE"
-      },
-      KeepJobFlowAliveWhenNoSteps: False
+      }
     ]
   },
   "Steps": [
