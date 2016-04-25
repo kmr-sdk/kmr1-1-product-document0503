@@ -80,12 +80,12 @@ sdk使用样例请参考：https://github.com/kmr-sdk/kmr-java-sample
         );
 request必需参数：
 
-> withName：JobFlow名称
- withInstances：创建cluster的节点配置
- withInstanceGroups：节点组配置
- withInstanceRole: 节点类型，Master／Core
-withInstanceCount: 节点数量
-withInstanceType: 节点配置类型
+> withName：JobFlow名称<br/>
+ withInstances：创建cluster的节点配置<br/>
+ withInstanceGroups：节点组配置<br/>
+ withInstanceRole: 节点类型，Master／Core<br/>
+withInstanceCount: 节点数量<br/>
+withInstanceType: 节点配置类型<br/>
 
 说明：节点配置类型如下
 
