@@ -7,6 +7,5 @@
 | Content-Type | 数据结构类型（application/json） | 是 |
 | X-Action | 请求的目标操作，例如：ListClusters | 是 |
 | X-Version | 请求的目标操作，例如：2016-05-20 | 是 |
-
 | X-Ksc-Content-Sha256 | Sha256哈希值，用于计算签名 | 否 |
 | X-Ksc-Date | 请求发出的时间，格式：<br>yyyyMMdd'T'HHmmss'Z'  | 是 |
