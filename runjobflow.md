@@ -1,4 +1,4 @@
-## LaunchCluter
+## LaunchCluster
 
 
 * **功能描述**
