@@ -47,15 +47,15 @@
 
 　　**VpcSubnetId**
   
-　　　　集群所属的虚拟专有网络（VPC）的子网信息。<br>
+　　　　集群所属的虚拟专有网络（VPC）子网信息。<br>
 　　　　类型：String <br>
-　　　　是否必须：否
+　　　　是否必须：是
 
 　　**VpcEndpointId**
 
-　　　　集群是否启用释放保护锁。<br>
-　　　　类型：Boolean <br>
-　　　　是否必须：否
+　　　　集群所属的虚拟专有网络（VPC）的Endpoint子网信息，用于创建KMR部署使用的相关网络资源比如内网LB。<br>
+　　　　类型：String <br>
+　　　　是否必须：是
    
 　　**LogUri**
   
