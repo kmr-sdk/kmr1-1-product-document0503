@@ -68,7 +68,8 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.ListClusters
+X-Action: ListClusters
+X-Version: 2016-05-20
 {
    "ClusterStates": ["RUNNING", "TERMINATED"]
    "CreatedAfter": "2016-01-08T19:00:00"
