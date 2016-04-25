@@ -24,7 +24,7 @@
 　　**InstanceGroups.member.N**
   
 　　　　集群里虚机的配置和数目信息。<br>
-　　　　类型：ClusterInstanceGroupConfig列表   (5.12 [JobFlowInstancesConfig](JobFlowInstancesConfig.md))<br>
+　　　　类型：InstanceGroupConfig列表   (5.12 [JobFlowInstancesConfig](JobFlowInstancesConfig.md))<br>
 　　　　是否必须：是
    
 　　**AutoTerminate**
