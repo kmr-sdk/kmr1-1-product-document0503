@@ -3,7 +3,7 @@
 
 * **功能描述**
 
-　　创建集群操作，操作成功后会创建一个KMR集群，如果参数中带有作业配置，则集群创建成功后将自动运行指定的作业。如果KeepJobFlowAliveWhenNoSteps设置为True，则作业运行完毕后集群不会释放，反之集群会在所有作业完成后自动释放；关于参数中TerminationProtected的设置及原理介绍请参见SetTerminationProtection部分。
+　　创建集群操作，操作成功后会创建一个KMR集群，如果参数中带有作业配置，则集群创建成功后将自动运行指定的作业。如果AutoTerminate设置为True，则作业运行完毕后集群不会释放，反之集群会在所有作业完成后自动释放；关于参数中TerminationProtected的设置及原理介绍请参见SetTerminationProtection部分。
  
 * **请求参数**
 
@@ -26,7 +26,11 @@
 　　　　集群里虚机的配置和数目信息。<br>
 　　　　类型：JobFlowInstancesConfig   (5.12 [JobFlowInstancesConfig](JobFlowInstancesConfig.md))<br>
 　　　　是否必须：是
-    
+   
+　　**AutoTerminate**
+  
+　　　　集群里虚机的配置和数目信息。<br>
+   
 　　**LogUri**
   
 　　　　日志输出的KS3路径，格式为：“KS3://bucket/object_key”。如果不填则日志不会输出到KS3。<br>
