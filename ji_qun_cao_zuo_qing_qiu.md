@@ -2,7 +2,7 @@
 
 [**1. ListClusters**](listclusters.md)
 
-[**2. TerminateJobFlows**](terminatejobflows.md)
+[**2. TerminateClusters**](terminatejobflows.md)
 
 [**3. SetTerminationProtection**](setterminationprotection.md)
 
