@@ -128,9 +128,7 @@ X-Version: 2016-05-20
 {
   "Name": "api-test",
   "KeepJobFlowAliveWhenNoSteps": False
-  
-  "Instances": {
-    "InstanceGroups" : [
+  "InstanceGroups" : [
       {
         "InstanceType" : "kmr.general",
         "InstanceCount" : 1,
@@ -141,8 +139,7 @@ X-Version: 2016-05-20
         "InstanceCount" : 2,
         "InstanceGroupType" : "CORE"
       }
-    ]
-  },
+  ],
   "Steps": [
         {
             "ActionOnFailure": "CONTINUE",
