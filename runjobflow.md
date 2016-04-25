@@ -168,7 +168,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: xxx
 {
-  "JobFlowId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
+  "ClusterId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
 }
 ```
 
