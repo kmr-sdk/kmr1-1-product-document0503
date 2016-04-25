@@ -9,7 +9,7 @@
 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
-　　**JobFlowId**
+　　**ClusterId**
   
 　　　　需要添加作业的目标集群ID。<br>
 　　　　类型：String<br>
