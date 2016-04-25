@@ -11,7 +11,7 @@
 
 　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
   
-　　**JobFlowIds.member.N**
+　　**ClusterIds.member.N**
   
 　　　　需要释放的集群ID列表。<br>
 　　　　类型：String列表<br>
