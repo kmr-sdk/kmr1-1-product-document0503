@@ -65,7 +65,7 @@ def canonical_request(self, http_request, sign_headers):
             cr.append(self.payload(http_request))
         return '\n'.join(cr)
 
-    def string_to_sign(self, http_request, canonical_request, scope):
+def string_to_sign(self, http_request, canonical_request, scope):
         sts = [self.hash_method]
         sts.append(http_request.headers[self.header_name_date])
         sts.append(scope)
