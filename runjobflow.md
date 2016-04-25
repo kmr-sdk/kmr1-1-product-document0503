@@ -21,7 +21,7 @@
 　　　　类型：String列表<br>
 　　　　是否必须：否
     
-　　**Instances**
+　　**InstanceGroups.member.N**
   
 　　　　集群里虚机的配置和数目信息。<br>
 　　　　类型：JobFlowInstancesConfig   (5.12 [JobFlowInstancesConfig](JobFlowInstancesConfig.md))<br>
