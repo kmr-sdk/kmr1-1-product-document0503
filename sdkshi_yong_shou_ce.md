@@ -103,16 +103,16 @@ withInstanceType: 节点配置类型
 
 request可选参数：
 
-> withLogUri: log在KS3上的存放路径，省略此选项时不会将日志保存到KS3上。
-withApplications：cluster支持的应用，如hadoop、hive等，默认支持hadoop
-withKeepJobFlowAliveWhenNoSteps: Cluster上没有任务运行时，是否继续保持Cluster Alive，默认为True。
-withTerminationProtected：该项为True，cluster不能直接被关闭。默认为False。创建cluster后可通过调用setTerminationProtection接口来设置该选项。
-withEnableHighAvailability: 是否支持高可用性，默认为False。
-withHadoopVersion：Hadoop版本，默认为hadoop 2.6.0
-withSteps：创建cluster后需要运行的任务，可省略。创建cluster后，可通过调用addJobFlowSteps接口来添加Steps。
-withEnableEip：使节点具备外网IP，以便用户从外网访问节点，默认为False。
-withSshKeyIds：登录cluster节点时用的sshKey，默认为None。
-withConfigurations：集群软件配置项，默认为None。
+> withLogUri: log在KS3上的存放路径，省略此选项时不会将日志保存到KS3上。<br/>
+withApplications：cluster支持的应用，如hadoop、hive等，默认支持hadoop<br/>
+withKeepJobFlowAliveWhenNoSteps: Cluster上没有任务运行时，是否继续保持Cluster Alive，默认为True。<br/>
+withTerminationProtected：该项为True，cluster不能直接被关闭。默认为False。创建cluster后可通过调用setTerminationProtection接口来设置该选项。<br/>
+withEnableHighAvailability: 是否支持高可用性，默认为False。<br/>
+withHadoopVersion：Hadoop版本，默认为hadoop 2.6.0<br/>
+withSteps：创建cluster后需要运行的任务，可省略。创建cluster后，可通过调用addJobFlowSteps接口来添加Steps。<br/>
+withEnableEip：使节点具备外网IP，以便用户从外网访问节点，默认为False。<br/>
+withSshKeyIds：登录cluster节点时用的sshKey，默认为None。<br/>
+withConfigurations：集群软件配置项，默认为None。<br/>
 
 Configuration支持的Classification如下：
 
