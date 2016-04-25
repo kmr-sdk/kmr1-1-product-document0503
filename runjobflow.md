@@ -29,7 +29,33 @@
    
 　　**AutoTerminate**
   
-　　　　集群里虚机的配置和数目信息。<br>
+　　　　集群在运行完作业后是否自动释放。<br>
+　　　　类型：Boolean <br>
+　　　　是否必须：否
+   
+　　**TerminationProtected**
+  
+　　　　集群是否启用释放保护锁。<br>
+　　　　类型：Boolean <br>
+　　　　是否必须：否
+   
+　　**VpcDomainId**
+  
+　　　　集群所属的虚拟专有网络（VPC）信息。<br>
+　　　　类型：String <br>
+　　　　是否必须：是
+
+　　**VpcSubnetId**
+  
+　　　　集群所属的虚拟专有网络（VPC）的子网信息。<br>
+　　　　类型：String <br>
+　　　　是否必须：否
+
+　　**VpcEndpointId**
+
+　　　　集群是否启用释放保护锁。<br>
+　　　　类型：Boolean <br>
+　　　　是否必须：否
    
 　　**LogUri**
   
