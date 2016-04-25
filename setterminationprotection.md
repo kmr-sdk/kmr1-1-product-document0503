@@ -51,7 +51,8 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.SetTerminationProtection
+X-Version: SetTerminationProtection
+X-Verion: 2016-05-20
 {
     "JobFlowIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"],
     "TerminationProtected": true
