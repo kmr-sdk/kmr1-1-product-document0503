@@ -97,7 +97,7 @@
 
 　　返回结果包含以下字段：
   
-　　**JobFlowId**
+　　**ClusterId**
   
 　　　　创建成功的集群ID<br>
 　　　　类型：String 
