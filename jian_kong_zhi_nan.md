@@ -43,7 +43,7 @@
 
 　　JobHistory是Hadoop自带的历史服务器，可以查看已经运行完的MapReduce作业记录，例如使用的Map数、Reduce数、作业提交时间、作业启动时间、作业完成时间等信息。
 
-![historyserver]http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn5.png)
+![historyserver](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn5.png)
 
 
 　　**Spark History Server**
