@@ -6,7 +6,6 @@
 
 * [执行计划列表](zhi_xing_ji_hua_lie_biao.md)
 
-* [执行计划详情](zhi_xing_ji_hua_xiang_qing.md)
 
 
 
