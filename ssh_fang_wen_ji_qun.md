@@ -2,7 +2,7 @@
 
 　　1.打开KMR控制台，进入集群详情，展开主节点的详细信息，您可以通过公网（如果绑定EIP）或者内网IP地址访问集群。
 
-![绑定EIP](./images/fwjq1.png)
+![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
 
 　　2.导入[为集群添加SSH密钥](tian_jia_ssh_mi_yao.md) 中产生的私钥
 
