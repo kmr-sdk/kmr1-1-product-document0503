@@ -11,7 +11,7 @@
 
 　　Ganglia服务页面如下图所示：
 
-![ganlia](./images/jkzn1.png)
+![ganlia](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn1.png)
 
 
 　　**2.Hadoop服务状态查看**
