@@ -18,7 +18,7 @@
 　　**InstanceGroups**
     
 　　　　InstanceGroup类型列表。<br>
-　　　　类型：InstanceGroup列表  (5.8 [InstanceGroup](InstanceGroup))<br>
+　　　　类型：InstanceGroup列表  (5.8 [InstanceGroup](InstanceGroup.md))<br>
 　　　　是否必须：是
     
 * **返回参数**
