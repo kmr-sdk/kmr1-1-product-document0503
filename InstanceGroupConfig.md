@@ -19,3 +19,9 @@
 　　　　实例组中实例个数<br>
 　　　　类型：Integer<br>
 　　　　是否必须：是
+  
+　　**ServiceRoles.Member.N**  
+  
+　　　　实例组角色列表，如"NameNode", "ResourceManager", "HiveServer"等<br>
+　　　　类型：String列表<br>
+　　　　是否必须：否   

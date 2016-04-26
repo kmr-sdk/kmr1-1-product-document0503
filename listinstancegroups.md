@@ -56,7 +56,8 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.ListInstanceGroups
+X-Action: ListInstanceGroups
+X-Version: 2016-05-20
 
 {
     "ClusterId": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e"

@@ -45,7 +45,8 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.DescribeCluster
+X-Action: DescribeCluster
+X-Version: 2016-05-20
 {
     "ClusterId": "ffd8270a-48e0-4f68-8a35-0f8562302ad6"
 }

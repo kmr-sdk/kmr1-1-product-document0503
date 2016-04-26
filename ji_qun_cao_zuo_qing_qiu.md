@@ -2,7 +2,7 @@
 
 [**1. ListClusters**](listclusters.md)
 
-[**2. TerminateJobFlows**](terminatejobflows.md)
+[**2. TerminateClusters**](terminatejobflows.md)
 
 [**3. SetTerminationProtection**](setterminationprotection.md)
 
@@ -14,6 +14,6 @@
 
 [**7. DescribeCluster**](describecluster.md)
 
-[**8. RunJobFlow**](runjobflow.md)
+[**8. LaunchCluster**](runjobflow.md)
 
 [**9. AddInstanceGroups**](addinstancegroups.md)
