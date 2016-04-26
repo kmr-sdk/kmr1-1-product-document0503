@@ -18,4 +18,4 @@
 
 　　3.选择刚刚创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群，您可以把密钥同时加载到多个集群。至此，密钥加载完成。
 
-![加载到集群](./images/tjmy3.png)
+![加载到集群](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/tjmy3.png)
