@@ -56,7 +56,7 @@ X-Ksc-Target: ElasticMapReduce_V1.AddJobFlows
     "JobFlowId": "366bb23b-ef63-494d-acb8-3d26d6375da9",
     "Steps": [
         {
-"HadoopJarStep": {
+               "HadoopJarStep": {
                 "Args": [
                     "-input",
                     "ks3://yourbucket/input",
