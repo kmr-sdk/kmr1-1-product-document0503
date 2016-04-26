@@ -34,7 +34,7 @@
   
 　　　　配置信息属性和值的集合<br>
 　　　　Type：```map<string,string>　```　<br>　
-　　　　是否必须：否
+　　　是否必须：否
        
        
 　　**Configurations**
