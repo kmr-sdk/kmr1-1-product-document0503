@@ -23,7 +23,7 @@
 　　YARN ResourceManager管理工具可以查看集群运行的详细信息，包括节点信息、应用信息和调度信息等。
 
 
-![resourcemanager](./images/jkzn2.png)
+![resourcemanager](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn2.png)
 
 　　**HDFS Namenode**
 
