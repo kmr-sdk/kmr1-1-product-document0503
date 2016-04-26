@@ -9,4 +9,3 @@
 * [密钥列表](mi_yao_lie_biao.md)
 
 
-* [密钥详情](mi_yao_xiang_qing.md)
