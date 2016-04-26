@@ -17,7 +17,7 @@
     
 　　**InstanceGroups**
   
-　　　　InstanceGroup配置列表<br>
+　　　　需要添加的InstanceGroup配置列表<br>
 　　　　类型：InstanceGroupConfig列表  ([InstanceGroupConfig](InstanceGroupConfig.md))<br>
 　　　　是否必须：是
     　　
