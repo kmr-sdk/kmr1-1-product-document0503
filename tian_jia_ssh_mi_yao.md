@@ -4,7 +4,7 @@
 
 　　1.使用密钥生成工具生成SSH-2 RSA密钥，保存好私钥和公钥
 
-![生成密钥](./images/tjmy1.png)
+![生成密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/tjmy1.png)
 
 　　windows用户可以使用PuTTYgen.exe工具<br>
     　　http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
