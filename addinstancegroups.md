@@ -60,7 +60,7 @@ X-Version: 2016-05-20
             "InstanceGroupType": "TASK",
 	            "InstanceCount": 1,
 	            "InstanceType": "kmr.compute"
-         }
+        }
     ]
 }
 ```
