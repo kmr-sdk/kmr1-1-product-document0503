@@ -18,7 +18,7 @@
 　　**InstanceGroups**
   
 　　　　InstanceGroupConfig类型列表<br>
-　　　　类型：InstanceGroupConfig列表  (5.13 [InstanceGroupConfig](InstanceGroupConfig.md))<br>
+　　　　类型：InstanceGroupConfig列表  ([InstanceGroupConfig](InstanceGroupConfig.md))<br>
 　　　　是否必须：是
     　　
 * **返回参数**
@@ -51,7 +51,8 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.AddInstanceGroups
+X-Action: AddInstanceGroups
+X-Version: 2016-05-20
 {
     "ClusterId": "e1b637b5-210d-45b3-bc16-0338b3c8cf8e",
     "InstanceGroups": [
