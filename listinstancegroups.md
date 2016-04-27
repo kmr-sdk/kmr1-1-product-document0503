@@ -28,7 +28,7 @@
 　　**InstanceGroups**
   
 　　　　基于给定过滤条件返回指定集群的实例组列表<br>
-　　　　类型：InstanceGroup 列表  (5.8 [InstanceGroup](InstanceGroup.md)) 
+　　　　类型：InstanceGroup 列表  ([InstanceGroup](InstanceGroup.md)) 
 
 　　**Marker**
   
@@ -37,7 +37,7 @@
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
 
 　　**InternalServerError**
   
