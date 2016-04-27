@@ -19,6 +19,13 @@
 　　　　类型：String<br>
 　　　　长度限制：0-256<br>
 　　　　是否必须：否
+ 
+　　**Type**
+  
+　　　　作业类型。<br>
+　　　　类型：String<br>
+　　　　可选值：MapReduce、MapReduce.Streming、Pig、Hive、Spark<br>
+　　　　是否必须：是
     
 　　**Id**
   
