@@ -13,7 +13,7 @@
 　　　　类型：Boolean <br>
 　　　　是否必须：否
     
-　　**HadoopVersion**
+　　**DistributionVersion**
   
 　　　　集群选用的Hadoop发型版本信息。现阶段均为“kmr-1.0.0
 ”。<br>
