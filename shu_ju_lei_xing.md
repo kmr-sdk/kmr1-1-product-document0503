@@ -19,18 +19,18 @@
 
 [**8. InstanceGroup**](InstanceGroup.md)
 
-[**9.InstanceGroupStatus**](InstanceGroupStatus.md)
+[**9. InstanceGroupStatus**](InstanceGroupStatus.md)
 
-[**10.Instance**](Instance.md)
+[**10. Instance**](Instance.md)
 
 [**11. InstanceStatus**](InstanceStatus.md)
 
-[**12.InstanceGroupConfig**](InstanceGroupConfig.md)
+[**12. InstanceGroupConfig**](InstanceGroupConfig.md)
 
-[**13.Configuration**](Configuration.md)
+[**13. Configuration**](Configuration.md)
 
-[**14.BootstrapAction**](BootstrapAction.md)
+[**14. BootstrapAction**](BootstrapAction.md)
         
-[**15.ScriptBootstrapAction**](ScriptBootstrapAction.md)
+[**15. ScriptBootstrapAction**](ScriptBootstrapAction.md)
    
 
