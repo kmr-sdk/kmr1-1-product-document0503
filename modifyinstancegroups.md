@@ -7,7 +7,7 @@
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
   
 　　**ClusterId**
   
@@ -18,7 +18,7 @@
 　　**InstanceGroups**
     
 　　　　InstanceGroup类型列表。<br>
-　　　　类型：InstanceGroup列表  (5.8 [InstanceGroup](InstanceGroup))<br>
+　　　　类型：InstanceGroup列表  ([InstanceGroup](InstanceGroup))<br>
 　　　　是否必须：是
     
 * **返回参数**
@@ -27,7 +27,7 @@
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
 
 　　**InternalServerError**
   
