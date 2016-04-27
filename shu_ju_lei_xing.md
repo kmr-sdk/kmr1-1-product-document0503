@@ -25,14 +25,12 @@
 
 [**11. InstanceStatus**](InstanceStatus.md)
 
-[**12. JobFlowInstancesConfig**](JobFlowInstancesConfig.md)
+[**12.InstanceGroupConfig**](InstanceGroupConfig.md)
 
-[**13.InstanceGroupConfig**](InstanceGroupConfig.md)
+[**13.Configuration**](Configuration.md)
 
-[**14.Configuration**](Configuration.md)
-
-[**15.BootstrapAction**](BootstrapAction.md)
+[**14.BootstrapAction**](BootstrapAction.md)
         
-[**16.ScriptBootstrapAction**](ScriptBootstrapAction.md)
+[**15.ScriptBootstrapAction**](ScriptBootstrapAction.md)
    
 
