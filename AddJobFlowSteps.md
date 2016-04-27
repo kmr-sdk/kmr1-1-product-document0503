@@ -51,7 +51,8 @@
 ```
 POST / HTTP/1.1
 Content-Type: application/json
-X-Ksc-Target: ElasticMapReduce_V1.AddJobFlows
+X-Action: AddJobFlows
+X-Version: 2016-05-20
 {
     "JobFlowId": "366bb23b-ef63-494d-acb8-3d26d6375da9",
     "Steps": [
