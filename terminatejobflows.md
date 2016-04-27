@@ -47,7 +47,8 @@ X-Action: TerminateClusters
 X-Version: 2016-05-20
 {
     "ClusterIds": ["26e6d8af-18e2-49b6-b7d1-040dfb170b3b"]
-}```
+}
+```
 
 
 　　**返回样例**
@@ -56,6 +57,7 @@ X-Version: 2016-05-20
 HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: 2
-{}```
+{}
+```
 
 
