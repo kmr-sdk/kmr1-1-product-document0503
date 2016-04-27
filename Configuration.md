@@ -45,26 +45,27 @@
 　　Configuration类型数据示例：
 
 
-```{
-"Configurations": [
+```
 {
-     "Classification":"yarn-env",
-     "Configurations": [
-      {
-         "Classification":"export",
-         "Properties":{
-                  "YARN_NODEMANAGER_OPTS":" -Xmx2049m"
-         }
-     }
-]
- },
- {
-     "Classification":"mapred-site",
-     "Properties":{
-         "mapred.tasktracker.map.tasks.maximum":"5"
-      }
- }
-]
+    "Configurations": [
+        {
+           "Classification":"yarn-env",
+           "Configurations": [
+              {
+                 "Classification":"export",
+                 "Properties":{
+                      "YARN_NODEMANAGER_OPTS":" -Xmx2049m"
+                 }
+               }
+           ]
+        },
+        {
+           "Classification":"mapred-site",
+           "Properties":{
+               "mapred.tasktracker.map.tasks.maximum":"5"
+           }
+        }
+    ]
 }
 
 ```
