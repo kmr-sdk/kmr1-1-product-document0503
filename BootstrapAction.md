@@ -16,5 +16,5 @@
 　　**ScriptBootstrapAction**
   
 　　　　引导操作脚本配置<br>
-　　　　类型：ScriptBootstrapActive<br>
+　　　　类型：[ScriptBootstrapAction](ScriptBootstrapAction.md)<br>
 　　　　是否必须：是
