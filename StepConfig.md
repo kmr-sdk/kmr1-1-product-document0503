@@ -24,5 +24,5 @@
   
 　　　　作业类型。<br>
 　　　　类型：String<br>
-　　　　可选值：<br>
+　　　　可选值：MapReduce、MapReduce.Streming、Pig、Hive、Spark<br>
 　　　　是否必须：是
