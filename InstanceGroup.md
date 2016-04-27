@@ -43,3 +43,9 @@
 　　　　实例组配置信息，可以针对每个实例组单独设置配置项<br>
 　　　　类型：Configuration列表（5.14 [Configuration](Configuration.md)）<br>
 　　　　是否必须：否
+    
+　　**ServiceRoles.Member.N**  
+  
+　　　　实例组角色列表，如"NameNode", "ResourceManager", "HiveServer"等<br>
+　　　　类型：String列表<br>
+　　　　是否必须：否 
