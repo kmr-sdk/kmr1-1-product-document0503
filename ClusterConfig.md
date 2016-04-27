@@ -65,7 +65,7 @@
 　　**Status**
   
 　　　　集群的IAM角色，现阶段金山云IAM还未正式完成，取得的值均为Null。<br>
-　　　　类型：ClusterStatus  （5.2 [ClusterStatus](ClusterStatus.md)）<br>
+　　　　类型：ClusterStatus  （[ClusterStatus](ClusterStatus.md)）<br>
 　　　　是否必须：否
     
 　　**TerminationProtected**
@@ -78,7 +78,7 @@
 　　**Configurations**
   
 　　　　集群配置信息<br>
-　　　　类型：Configuration列表（5.14 [Configuration](Configuration.md)）<br>
+　　　　类型：Configuration列表（[Configuration](Configuration.md)）<br>
 　　　　是否必须：否
     
 　　**BootstrapActions**
