@@ -7,7 +7,7 @@
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
   
 　　**ClusterId**
   
@@ -41,7 +41,7 @@
 　　**Steps**
   
 　　　　满足请求中给出的过滤条件的作业列表。<br>
-　　　　类型：Step列表 （5.4 [Step](Step.md)）
+　　　　类型：Step列表 （[Step](Step.md)）
     
 　　**Marker**
   
@@ -50,7 +50,7 @@
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
 
 　　**InternalServerError**
   
