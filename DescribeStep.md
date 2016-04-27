@@ -7,7 +7,7 @@
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
   
 　　**ClusterId**
   
@@ -29,11 +29,11 @@
 　　**Step**
   
 　　　　需要查询作业的详细信息。<br>
-　　　　类型：Step （5.4 [Step](Step.md)）
+　　　　类型：Step （[Step](Step.md)）
     
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考2.4[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
 
 　　**InternalServerError**
   
