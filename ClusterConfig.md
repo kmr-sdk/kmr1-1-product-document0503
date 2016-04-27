@@ -38,7 +38,7 @@
 　　　　类型：String<br>
 　　　　是否必须：否
     
-　　**MasterPublicDnsName**
+　　**MasterPublicIP**
   
 　　　　如果集群创建Enable EIP，则为公网IP地址，否则为空。<br>
 　　　　类型：String<br>
