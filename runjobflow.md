@@ -7,9 +7,9 @@
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考2.2[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
   
-　　**HadoopVersion**
+　　**DistributionVersion**
   
 　　　　Hadoop发行版本说明。当前仅支持“hadoop 2.6.0”，如果不填则默认试用“hadoop 2.6.0”。　<br>
 　　　　类型：String<br>
