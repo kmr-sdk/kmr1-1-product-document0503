@@ -11,7 +11,7 @@
 
 　　Ganglia服务页面如下图所示：
 
-![ganlia](./images/jkzn1.png)
+![ganlia](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn1.png)
 
 
 　　**2.Hadoop服务状态查看**
@@ -23,27 +23,27 @@
 　　YARN ResourceManager管理工具可以查看集群运行的详细信息，包括节点信息、应用信息和调度信息等。
 
 
-![resourcemanager](./images/jkzn2.png)
+![resourcemanager](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn2.png)
 
 　　**HDFS Namenode**
 
 　　HDFS Namenode用来查看HDFS的使用状况，包括NameNode和DataNode的具体信息。
 
-![namenode](./images/jkzn3.png)
+![namenode](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn3.png)
 
 
 　　**OOZIE**
 
 　　Oozie是服务于Hadoop生态系统的工作流调度工具，Oozie工作流是放置在控制依赖DAG（有向无环图）中的一组动作，把多个Map/Reduce作业组合到一个逻辑工作单元中，来完成更大型的任务。
 
-![oozie](./images/jkzn4.png)
+![oozie](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn4.png)
 
 
 　　**YARN HistoryServer**
 
 　　JobHistory是Hadoop自带的历史服务器，可以查看已经运行完的MapReduce作业记录，例如使用的Map数、Reduce数、作业提交时间、作业启动时间、作业完成时间等信息。
 
-![historyserver](./images/jkzn5.png)
+![historyserver](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn5.png)
 
 
 　　**Spark History Server**
@@ -51,4 +51,4 @@
 　　运行Spark应用程序的时候，driver会提供一个webUI显示应用程序的运行信息，但是应用程序完成后，将关闭端口，即无法查看应用程序的历史记录。Spark History Server将运行完的应用程序信息义Web的方式提供给用户。
   
 
-![spark](./images/jkzn6.png)
+![spark](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn6.png)
