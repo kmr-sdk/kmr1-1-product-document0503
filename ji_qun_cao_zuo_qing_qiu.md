@@ -569,7 +569,7 @@ Content-Length: 2
 　　**InstanceGroups**
   
 　　　　基于给定过滤条件返回指定集群的实例组列表<br>
-　　　　类型：InstanceGroup 列表  ([InstanceGroup](InstanceGroup.md)) 
+　　　　类型：InstanceGroup 列表  (InstanceGroup) 
 
 　　**Marker**
   
