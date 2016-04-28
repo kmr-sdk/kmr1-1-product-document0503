@@ -250,7 +250,7 @@ Content-Length: 2
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md)公共参数部分
   
 　　**ClusterId**
   
