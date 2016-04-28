@@ -64,3 +64,9 @@
 
 　　**释放集群：**点击该按钮，会弹出释放集群对话框。释放集群将会删除掉所有集群节点、HDFS上存储的数据以及正在运行的作业且无法恢复，KS3上面存储的数据将会保留,请慎重操作。释放集群之前请确认“集群释放保护”选项处于关闭状态
   
+  ### 作业详情
+
+　　点击“作业列表”页签，您可以查看该集群中运行的作业状态，并可以为集群添加新的作业，参考[作业创建指南](zuo_ye_chuang_jian_zhi_nan.md)
+  
+  ![作业详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zyxq.png)  
+  ![作业详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zyxq1.png)
