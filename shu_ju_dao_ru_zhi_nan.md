@@ -8,7 +8,7 @@
   
   ![数据导入1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/sjdr1.png)
   
-　　（2）“地区”选择“中国（北京）”（目前KMR仅在北京region提供），输入空间名称，如无需公开读写，访问控制选择“私密”即可。
+　　（2）选择“地区”（需要选择和KMR服务所在相同的地区，KMR无法跨地区访问KS3），输入空间名称，如无需公开读写，访问控制选择“私密”即可。
   
   ![数据导入2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/sjdr2.png)
   
@@ -16,8 +16,8 @@
   
 　　（3）进入空间，选择“内容管理”，可以创建目录，或者直接通过浏览器上传文件，超过500M以上的文件可以使用SDK或者工具上传
   
-　　KS3 SDK:     https://github.com/ks3sd<br>
-　　KS3上传工具 http://www.ksyun.com/doc/art/id/432
+　　KS3 SDK:：     https://github.com/ks3sd<br>
+　　KS3上传工具： http://www.ksyun.com/doc/art/id/432
   
   ![数据导入3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/sjdr3.png)
   
