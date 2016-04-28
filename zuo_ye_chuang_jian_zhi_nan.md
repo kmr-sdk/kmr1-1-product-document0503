@@ -74,7 +74,6 @@
 
 <h3 name="hive" id="hive">3.添加Hive作业</h3>
 
-
 ---
 
 　　Hive 是一种开源数据仓库和分析套件，它在 Hadoop 的基础上运行。Hive 脚本使用类似 SQL 的语言，名为 Hive QL（查询语言），该语言会将SQL语法映射为MapReduce 编程模型，支持典型的数据仓库查询交互。Hive 可避免您以低级别的计算机语言（如 Java）编写 MapReduce 程序这样的复杂工作。KMR提供对Hive的支持。
@@ -99,8 +98,10 @@
 
 　　4.如果您是对已创建的集群添加作业，作业提交后立即开始执行。
 
+<h3 name="pig" id="pig">4.添加Pig作业</h3>
 
-### 添加Pig作业
+---
+
 
 　　Pig 是一种开源 Apache 库，在 Hadoop 的顶层上运行。该库使用名为 Pig Latin 的语言编写的、类似 SQL的命令，并将这些命令转换到 MapReduce 任务中。KMR支持 Apache Pig，此编程框架可用于分析和转换大型数据集。有关 Pig 的详细信息，请转到 http://pig.apache.org/
   
