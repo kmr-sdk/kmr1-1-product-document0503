@@ -1,6 +1,0 @@
-## 作业详情
-
-　　点击“作业列表”页签，您可以查看该集群中运行的作业状态，并可以为集群添加新的作业，参考[作业创建指南](zuo_ye_chuang_jian_zhi_nan.md)
-  
-  ![作业详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zyxq.png)  
-  ![作业详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zyxq1.png)
