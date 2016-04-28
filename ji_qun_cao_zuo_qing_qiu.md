@@ -31,7 +31,7 @@
   
 * **请求参数**
  
-　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
   
 　　**ClusterStates.member.N**
   
@@ -65,7 +65,7 @@
 　　**Clusters**
   
 　　　　当前账户满足请求中给出的过滤条件的集群列表<br>
-　　　　类型：ClusterSummary列表 ([ClusterSummary](ClusterSummary.md))
+　　　　类型：ClusterSummary列表 (ClusterSummary)
     
 　　**Marker**
   
