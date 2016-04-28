@@ -2,11 +2,11 @@
 
  **[1. 服务信息](#fu_wu_xin_xi)**
  
- **[2. 公共参数](gong_gong_can_shu.md)**
+ **[2. 公共参数](#gong_gong_can_shu)**
  
- **[3. 签名机制](qian_ming_ji_zhi.md)**
+ **[3. 签名机制](#qian_ming_ji_zhi)**
  
- **[4. 通用错误信息](tong_yong_cuo_wu_xin_xi.md)**
+ **[4. 通用错误信息](#tong_yong_cuo_wu_xin_xi)**
 
 
 ## 服务信息
