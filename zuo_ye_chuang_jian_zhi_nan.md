@@ -3,15 +3,15 @@
 
 　　KMR控制台支持Custom Jar , Streaming, Hive, Pig, Spark等作业类型，您也可以使用KMR OpenAPI来为集群创建作业，详见 [《KMR API 参考指南》](jian_jie.md)
   
-   [1. 添加Custom JAR作业](#customjar)
+  　　 [1. 添加Custom JAR作业](#customjar)
 
-   [2. 添加Streaming作业](#streaming)
+  　　 [2. 添加Streaming作业](#streaming)
 
-   [3. 添加Hive作业](#hive)
+  　　 [3. 添加Hive作业](#hive)
 
-   [4. 添加Pig作业](#pig)
+  　　 [4. 添加Pig作业](#pig)
 
-   [5. 添加Spark作业](#spark)
+  　　 [5. 添加Spark作业](#spark)
 
 
 ### 添加Custom JAR作业
