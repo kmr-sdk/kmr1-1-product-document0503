@@ -654,7 +654,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
   
 　　**ClusterId**
   
@@ -665,7 +665,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 　　**InstanceGroups**
   
 　　　　需要添加的InstanceGroup配置列表<br>
-　　　　类型：InstanceGroupConfig列表  ([InstanceGroupConfig](InstanceGroupConfig.md))<br>
+　　　　类型：InstanceGroupConfig列表  (InstanceGroupConfig)<br>
 　　　　是否必须：是
     　　
 * **返回参数**
