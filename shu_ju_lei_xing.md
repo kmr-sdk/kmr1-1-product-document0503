@@ -143,8 +143,12 @@
 　　　　类型：BootstrapAction列表(BootstrapAction)<br>
 　　　　是否必须：否
     
-    
-    ## ClusterStatus
+<h3 name="ClusterStatus" id="ClusterStatus">2.ClusterStatus</h3>    
+
+
+---
+
+
 
 　　**State**
   
