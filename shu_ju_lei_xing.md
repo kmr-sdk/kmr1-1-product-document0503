@@ -469,8 +469,10 @@
 　　　　类型：String列表<br>
 　　　　是否必须：否   
     
-    
-    ## Configuration
+   <h3 name="Configuration" id="Configuration">12.Configuration</h3> 
+
+---  
+  
 
 　　所创建集群的配置信息。
   
