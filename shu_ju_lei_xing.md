@@ -190,8 +190,7 @@
 　　　　可选值：MapReduce | MapReduce.Streming | Pig | Hive | Spark<br>
 　　　　是否必须：是
     
-<h3 name="StepConfig" id="StepConfig">4.Step</h3>       
-
+<h3 name="Step" id="Step">4.Step</h3>     
 
 ---
 
