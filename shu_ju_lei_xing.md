@@ -387,7 +387,12 @@
 　　　　类型：String列表<br>
 　　　　是否必须：否 
     
-    ## InstanceGroupStatus
+    
+     <h3 name="InstanceGroupStatus" id="InstanceGroupStatus">9.InstanceGroupStatus</h3> 
+
+
+---
+ 
 
 　　**State**
   
