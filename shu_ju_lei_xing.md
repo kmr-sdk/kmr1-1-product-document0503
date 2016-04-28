@@ -440,7 +440,7 @@
 　　　　是否必须：否<br>
 　　　　合法值：PROVISIONING | RUNNING | RESIZING | TERMINATED
     
-   <h3 name="InstanceGroupConfig" id="InstanceGroupConfig">11.InstanceGroupConfig</h3> 
+   <h3 name="InstanceGroupConfig" id="InstanceGroupConfig">12.InstanceGroupConfig</h3> 
 
 ---  
 
@@ -471,7 +471,7 @@
 　　　　类型：String列表<br>
 　　　　是否必须：否   
     
-   <h3 name="Configuration" id="Configuration">12.Configuration</h3> 
+   <h3 name="Configuration" id="Configuration">13.Configuration</h3> 
 
 ---  
   
@@ -564,7 +564,7 @@
 　　**ScriptBootstrapAction**
   
 　　　　引导操作脚本配置<br>
-　　　　类型：[ScriptBootstrapAction](ScriptBootstrapAction.md)<br>
+　　　　类型：ScriptBootstrapAction <br>
 　　　　是否必须：是
     
     
