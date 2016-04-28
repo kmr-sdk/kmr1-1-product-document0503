@@ -7,11 +7,11 @@
 
  * [创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md)
 
-*  [查看集群列表](cha_kan_ji_qun_lie_biao.md)
+*  [查看集群列表](#cha_kan_ji_qun_lie_biao)
  
-* [集群详情](ji_qun_xiang_qing.md)
+* [集群详情](#ji_qun_xiang_qing)
 
-* [作业详情](zuo_ye_xiang_qing.md)
+* [作业详情](#zuo_ye_xiang_qing)
 
   ### 查看集群列表
 
