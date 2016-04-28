@@ -231,7 +231,7 @@ Content-Length: xxx
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考[公共参数](gong_gong_can_shu.md)
+　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
   
 　　**DistributionVersion**
   
@@ -248,7 +248,7 @@ Content-Length: xxx
 　　**InstanceGroups.member.N**
   
 　　　　集群里虚机的配置和数目信息。<br>
-　　　　类型：InstanceGroupConfig列表   ([InstanceGroupConfig](InstanceGroupConfig.md))<br>
+　　　　类型：InstanceGroupConfig列表   (InstanceGroupConfig)<br>
 　　　　是否必须：是
    
 　　**AutoTerminate**
