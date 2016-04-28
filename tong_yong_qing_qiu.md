@@ -1,6 +1,6 @@
 ## 通用请求
 
- **[1. 服务信息](fu_wu_xin_xi.md)**
+ **[1. 服务信息](#fu_wu_xin_xi)**
  
  **[2. 公共参数](gong_gong_can_shu.md)**
  
