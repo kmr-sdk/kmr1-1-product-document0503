@@ -10,9 +10,9 @@
   
 　　顺序完成以下步骤：
   
-   　　1. [集群基本信息](#ji_qun_ji_ben_xin_xi)
+   　　[1. 集群基本信息](#ji_qun_ji_ben_xin_xi)
 
-   　　2. [安全与访问](#an_quan_yu_fang_wen)
+   　　[2. 安全与访问](#an_quan_yu_fang_wen)
 
    　　3. [添加作业](#tian_jia_zuoy_zy)
 
@@ -61,6 +61,12 @@
 
 <h3 name="an_quan_yu_fang_wen" id="an_quan_yu_fang_wen">2.安全与访问</h3>
 
+
+
+---
+
+
+
 　　1.设置集群网络
 
 　　KMR服务依赖VPC（虚拟专有网络）以及子网、EndPoind等组件，在创建KMR集群时，会创建默认VPC和相关组件。如需创建自定义VPC，请点击“创建VPC”,参考金山云VPC产品相关文档，或者咨询技术支持。
@@ -84,6 +90,10 @@
 
 
 <h3 name="tian_jia_zuo_ye" id="tian_jia_zuo_ye">3.添加作业</h3>
+
+
+---
+
 
 　　1.设置引导操作
 
@@ -112,6 +122,10 @@
 
 
 <h3 name="que_ren_ding_dan" id="que_ren_ding_dan">4.确认订单</h3>
+
+
+---
+
 
 　　订单确认页面，该页面会根据集群的配置估算出KMR费用，点击“确认提交”后开始创建集群
   
