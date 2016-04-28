@@ -425,7 +425,7 @@
 　　**Status**
   
 　　　　实例状态<br>
-　　　　类型：InstanceStatus  （[InstanceStatus](InstanceStatus.md)）<br>
+　　　　类型：InstanceStatus  （InstanceStatus）<br>
 　　　　是否必须：否
     
   <h3 name="InstanceStatus" id="InstanceStatus">11.InstanceStatus</h3> 
