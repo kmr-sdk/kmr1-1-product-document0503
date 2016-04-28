@@ -173,7 +173,7 @@
 　　**HadoopJarStep**
   
 　　　　配置作业使用的jar file。<br>
-　　　　类型：HadoopJarStepConfig（[HadoopJarStepConfig](HadoopJarStepConfig.md)）<br>
+　　　　类型：HadoopJarStepConfig（HadoopJarStepConfig）<br>
 　　　　是否必须：是
     
 　　**Name**
@@ -190,8 +190,12 @@
 　　　　可选值：MapReduce | MapReduce.Streming | Pig | Hive | Spark<br>
 　　　　是否必须：是
     
-    
-    ## Step
+<h3 name="StepConfig" id="StepConfig">4.Step</h3>        
+
+
+---
+
+
 
 　　**ActionOnFailure**
   
