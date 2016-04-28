@@ -302,8 +302,12 @@
 　　　　是否必须：否
     
     
-    
-    ## InstanceGroup
+   <h3 name="InstanceGroup" id="InstanceGroup">7.InstanceGroup</h3> 
+
+
+---
+
+
 
 　　**Id**
   
