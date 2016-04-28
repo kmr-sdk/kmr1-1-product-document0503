@@ -158,9 +158,11 @@
 　　　　是否必须：否
     
     
-    
-    ## StepConfig
+<h3 name="StepConfig" id="StepConfig">3.StepConfig</h3>    
 
+
+---    
+    
 　　**ActionOnFailure**
   
 　　　　作业失败策略。<br>
