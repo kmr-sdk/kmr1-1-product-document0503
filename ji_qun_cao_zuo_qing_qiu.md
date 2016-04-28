@@ -308,7 +308,7 @@ Content-Length: xxx
 　　**Configurations.member.N**
   
 　　　　所创建集群的配置信息。<br>
-　　　　类型：Configuration列表 （[Configuration](Configuration.md)）<br>
+　　　　类型：Configuration列表 （Configuration）<br>
 　　　　是否必须：否
     
 　　**BootstrapActions.member.N**
