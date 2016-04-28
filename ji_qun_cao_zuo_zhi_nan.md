@@ -43,7 +43,13 @@
 　　**保存为模板：**您可以将已创建的集群直接保存为模板
   
   
-  <h3 name="tian_jia_zuo_ye" id="tian_jia_zuo_ye">集群详情</h3>
+  <h3 name="ji_qun_xiang_qing" id="ji_qun_xiang_qing">集群详情</h3>
+  
+  
+
+---
+
+
 
 　　集群详情页面列出的集群的基本信息，您可以对一些集群配置进行更改
 
