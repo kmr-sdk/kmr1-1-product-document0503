@@ -168,7 +168,7 @@ Content-Length: xxx
 　　**Step**
   
 　　　　需要查询作业的详细信息。<br>
-　　　　类型：Step （[Step](Step.md)）
+　　　　类型：Step （Step）
     
 * **错误信息**
 
