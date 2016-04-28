@@ -14,9 +14,9 @@
 
 [**7. AddInstanceGroups**](#AddInstanceGroups)
 
-[**8. ModifyInstanceGroups**](modifyinstancegroups.md)
+[**8. ModifyInstanceGroups**](#ModifyInstanceGroups)
 
-[**9. ListInstances**](listinstances.md)
+[**9. ListInstances**](#ListInstances)
 
 
 ## ListClusters
