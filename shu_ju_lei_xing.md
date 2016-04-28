@@ -15,7 +15,7 @@
         
 [**6. StepStatus**](#StepStatus)
 
-[**7. ClusterSummary**](ClusterSummary.md)
+[**7. ClusterSummary**](#ClusterSummary)
 
 [**8. InstanceGroup**](InstanceGroup.md)
 
