@@ -1,9 +1,12 @@
 ## 通用请求
 
  **[1. 服务信息](fu_wu_xin_xi.md)**
-* **[2. 公共参数](gong_gong_can_shu.md)**
-* **[3. 签名机制](qian_ming_ji_zhi.md)**
-* **[4. 通用错误信息](tong_yong_cuo_wu_xin_xi.md)**
+ 
+ **[2. 公共参数](gong_gong_can_shu.md)**
+ 
+ **[3. 签名机制](qian_ming_ji_zhi.md)**
+ 
+ **[4. 通用错误信息](tong_yong_cuo_wu_xin_xi.md)**
 
 
 ## 服务信息
