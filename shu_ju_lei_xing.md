@@ -3,17 +3,17 @@
  　　KMR API使用了多种自定义数据类型，本章节将对这些数据类型做详细介绍
    
    
-[**1. ClusterConfig**](ClusterConfig.md)
+[**1. ClusterConfig**](#ClusterConfig)
 
-[**2. ClusterStatus**](ClusterStatus.md)
+[**2. ClusterStatus**](#ClusterStatus)
 
-[**3. StepConfig**](StepConfig.md)
+[**3. StepConfig**](#StepConfig)
 
-[**4. Step**](Step.md)
+[**4. Step**](#Step)
 
-[**5. HadoopJarStepConfig**](HadoopJarStepConfig.md)
+[**5. HadoopJarStepConfig**](#HadoopJarStepConfig)
         
-[**6. StepStatus**](StepStatus.md)
+[**6. StepStatus**](#StepStatus)
 
 [**7. ClusterSummary**](ClusterSummary.md)
 
