@@ -10,7 +10,7 @@
   
 　　顺序完成以下步骤：
   
-   ###[1.集群基本信息](#ji_qun_ji_ben_xin_xi)
+   1. [集群基本信息](#ji_qun_ji_ben_xin_xi)
 
    * [安全与访问](an_quan_yu_fang_wen.md)
 
