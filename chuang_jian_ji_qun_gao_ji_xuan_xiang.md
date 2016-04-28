@@ -10,6 +10,8 @@
   
 　　顺序完成以下步骤：
   
+  [1.前言](#qianyan)
+  
    * [集群基本信息](ji_qun_ji_ben_xin_xi.md)
 
    * [安全与访问](an_quan_yu_fang_wen.md)
@@ -18,7 +20,7 @@
 
    * [确认订单](que_ren_ding_dan.md)
   
-  
+  <h2 name="qianyan" id="qianyan">1. 前言</h2>
   ### 集群基本信息
 
 　　1.填写集群的基本信息
