@@ -248,3 +248,13 @@
 　　　为作业运行指定key-value列表，你可以在你的主函数中使用这些key-value。<br>
 　　　类型：KeyValue 列表<br>
 　　　是否必须：否
+   
+   
+   ## StepStatus
+
+　　**State**
+  
+　　　　作业运行状态。<br>
+　　　　类型：String<br>
+　　　　可选值：PENDING | RUNNING | COMPLETED | CANCELLED | FAILED | INTERRUPTED | TRANSFERINGLOG<br> 
+　　　　是否必须：否
