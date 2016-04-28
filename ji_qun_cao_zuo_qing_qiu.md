@@ -643,8 +643,11 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 ```
 
 
+<h3 name="AddInstanceGroups" id="AddInstanceGroups">7.AddInstanceGroups</h3>
 
-## AddInstanceGroups
+
+---
+
 
 
 * **功能描述**
