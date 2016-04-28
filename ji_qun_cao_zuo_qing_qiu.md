@@ -131,8 +131,11 @@ Content-Length: xxx
 ```
 
 
+<h3 name="DescribeCluster" id="DescribeCluster">2.DescribeCluster</h3>
 
-## DescribeCluster
+
+---
+
 
 
 * **功能描述**
