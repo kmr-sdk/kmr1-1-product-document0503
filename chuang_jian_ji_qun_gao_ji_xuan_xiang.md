@@ -14,9 +14,9 @@
 
    　　2. [安全与访问](an_quan_yu_fang_wen.md)
 
-   3. [添加作业](tian_jia_zuoy_zy.md)
+   　　3. [添加作业](tian_jia_zuoy_zy.md)
 
-   * [确认订单](que_ren_ding_dan.md)
+   　　4. [确认订单](que_ren_ding_dan.md)
   
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">1.集群基本信息</h3>
 
