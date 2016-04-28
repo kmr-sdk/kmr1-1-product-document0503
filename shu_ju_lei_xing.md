@@ -232,11 +232,13 @@
 　　**Status **
   
 　　　　作业状态。<br>
-　　　　类型：StepStatus  （[StepStatus](StepStatus.md)）<br>
+　　　　类型：StepStatus  （StepStatus）<br>
 　　　　是否必须：否
     
-    
-    ## HadoopJarStepConfig
+ <h3 name="HadoopJarStepConfig" id="HadoopJarStepConfig">5.HadoopJarStepConfig</h3>     
+
+---   
+   
 
 　　**Args**
   
