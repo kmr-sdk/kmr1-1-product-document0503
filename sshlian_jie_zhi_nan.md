@@ -36,8 +36,11 @@
 　　3.选择刚刚创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群，您可以把密钥同时加载到多个集群。至此，密钥加载完成。
 ![加载到集群](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/tjmy3.png)
   
+<h3 name="tian_jia_ssh_mi_yao" id="tian_jia_ssh_mi_yaoe">使用SSH访问集群</h3>
+
+
+---
   
-  ## 使用SSH访问集群
 
 　　1.打开KMR控制台，进入集群详情，展开主节点的详细信息，您可以通过公网（如果绑定EIP）或者内网IP地址访问集群。
 
