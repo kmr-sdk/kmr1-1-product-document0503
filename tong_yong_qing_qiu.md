@@ -43,7 +43,7 @@
 　　仅支持json格式的返回结果。
 
 
-<h3 name="fu_wu_xin_xi" id="fu_wu_xin_xi">2.公共参数</h3>
+<h3 name="gong_gong_can_shu" id="gong_gong_can_shu">2.公共参数</h3>
 
 
 ---
