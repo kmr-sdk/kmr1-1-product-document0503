@@ -72,7 +72,7 @@
 　　**释放集群：**点击该按钮，会弹出释放集群对话框。释放集群将会删除掉所有集群节点、HDFS上存储的数据以及正在运行的作业且无法恢复，KS3上面存储的数据将会保留,请慎重操作。释放集群之前请确认“集群释放保护”选项处于关闭状态
   
   
-   <h3 name="ji_qun_xiang_qing" id="ji_qun_xiang_qing">作业详情</h3>
+   <h3 name="zuo_ye_xiang_qing" id="zuo_ye_xiang_qing">作业详情</h3>
   
 ---
 
