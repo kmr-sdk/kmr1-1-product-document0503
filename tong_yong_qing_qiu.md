@@ -160,7 +160,7 @@ def signature(self, string_to_sign, scope, secret_key):
         return self._sign(k_signing, string_to_sign, hex=True)
 ```
 
-<h3 name="fu_wu_xin_xi" id="fu_wu_xin_xi">4.通用错误信息</h3>
+<h3 name="tong_yong_cuo_wu_xin_xi" id="tong_yong_cuo_wu_xin_xi">4.通用错误信息</h3>
 
 
 ---
