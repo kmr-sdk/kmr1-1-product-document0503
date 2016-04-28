@@ -6,12 +6,16 @@
 　　在开始连接之前，请确保集群已经绑定了EIP，并且Master节点已经设置了正确的防火墙规则（默认阻止所有公网访问），请参考金山云官方文档 [防火墙配置](http://www.ksyun.com/doc/art/id/376e)
   
   
-* [为集群添加SSH密钥](tian_jia_ssh_mi_yao.md)
+* [为集群添加SSH密钥](#tian_jia_ssh_mi_yao)
   
-* [使用SSH访问集群](ssh_fang_wen_ji_qun.md)
+* [使用SSH访问集群](#ssh_fang_wen_ji_qun)
+
+<h3 name="tian_jia_ssh_mi_yao" id="tian_jia_ssh_mi_yaoe">为集群添加SSH密钥</h3>
 
 
-## 为集群添加SSH密钥
+---
+
+
 
 　　KMR集群仅支持SSH 密钥认证方式，在使用SSH之前，您需要为集群添加SSH密钥。
 
