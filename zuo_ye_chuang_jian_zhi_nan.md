@@ -40,7 +40,10 @@
 
 　　4.如果您是对已创建的集群添加作业，作业提交后立即开始执行。
 
+<h3 name="customjar" id="customjar">1.添加Custom JAR作业</h3>
 
+
+---
 ### 添加Custom JAR作业
 
 　　Hadoop Streaming 是 Hadoop 附带的一种实用功能，可让您使用非 Java 语言开发 MapReduce 可执行文件。您可以在控制台上创建streaming作业，也可以像运行标准 JAR 文件一样，通过KMR API来运行它。
