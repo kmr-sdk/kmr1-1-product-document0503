@@ -46,7 +46,7 @@
 
 ![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
 
-　　2.导入[为集群添加SSH密钥](tian_jia_ssh_mi_yao.md) 中产生的私钥
+　　2.导入[为集群添加SSH密钥](#tian_jia_ssh_mi_yao) 中产生的私钥
 
 ![导入私钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq2.png)
 
