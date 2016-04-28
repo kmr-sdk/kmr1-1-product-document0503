@@ -217,8 +217,12 @@ Content-Length: xxx
 ```
 
 
+<h3 name="LaunchCluster" id="LaunchCluster">3.LaunchCluster</h3>
 
-## LaunchCluster
+
+---
+
+
 
 
 * **功能描述**
@@ -389,8 +393,11 @@ Content-Length: xxx
 }
 ```
 
+<h3 name="TerminateClusters" id="TerminateClusters">4.TerminateClusters/h3>
 
-## TerminateClusters
+
+---
+
 
 
 * **功能描述**
