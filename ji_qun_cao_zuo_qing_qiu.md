@@ -74,7 +74,8 @@
     
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
   
 　　**InternalServerError**
   
@@ -163,7 +164,8 @@ Content-Length: xxx
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -328,7 +330,8 @@ Content-Length: xxx
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -424,7 +427,8 @@ Content-Length: xxx
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -498,7 +502,8 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -578,7 +583,8 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -679,7 +685,8 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
     
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -759,7 +766,8 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
@@ -859,7 +867,8 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考[通用错误信息](tong_yong_cuo_wu_xin_xi.md)
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
 
 　　**InternalServerError**
   
