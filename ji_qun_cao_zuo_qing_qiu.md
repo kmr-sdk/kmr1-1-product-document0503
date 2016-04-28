@@ -462,8 +462,11 @@ Content-Length: 2
 ```
 
 
+<h3 name="SetTerminationProtection" id="SetTerminationProtection">5.SetTerminationProtection</h3>
 
-## SetTerminationProtection
+
+---
+
 
 
 * **功能描述**
