@@ -10,7 +10,7 @@
   
 * [使用SSH访问集群](#ssh_fang_wen_ji_qun)
 
-<h3 name="tian_jia_ssh_mi_yao" id="tian_jia_ssh_mi_yaoe">为集群添加SSH密钥</h3>
+<h3 name="tian_jia_ssh_mi_yao" id="tian_jia_ssh_mi_yao">为集群添加SSH密钥</h3>
 
 
 ---
