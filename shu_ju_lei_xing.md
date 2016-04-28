@@ -140,7 +140,7 @@
 　　**BootstrapActions**
   
 　　　　集群引导操作列表<br>
-　　　　类型：BootstrapAction列表([BootstrapAction](BootstrapAction.md))<br>
+　　　　类型：BootstrapAction列表(BootstrapAction)<br>
 　　　　是否必须：否
     
     
