@@ -104,7 +104,7 @@
 　　**Status**
   
 　　　　集群的IAM角色，现阶段金山云IAM还未正式完成，取得的值均为Null。<br>
-　　　　类型：ClusterStatus  （[ClusterStatus](ClusterStatus.md)）<br>
+　　　　类型：ClusterStatus  （ClusterStatus）<br>
 　　　　是否必须：否
     
 　　**TerminationProtected**
