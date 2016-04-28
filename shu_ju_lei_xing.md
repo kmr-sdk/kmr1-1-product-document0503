@@ -17,21 +17,21 @@
 
 [**7. ClusterSummary**](#ClusterSummary)
 
-[**8. InstanceGroup**](InstanceGroup.md)
+[**8. InstanceGroup**](#InstanceGroup)
 
-[**9. InstanceGroupStatus**](InstanceGroupStatus.md)
+[**9. InstanceGroupStatus**](#InstanceGroupStatus)
 
-[**10. Instance**](Instance.md)
+[**10. Instance**](#Instance)
 
-[**11. InstanceStatus**](InstanceStatus.md)
+[**11. InstanceStatus**](#InstanceStatus)
 
-[**12. InstanceGroupConfig**](InstanceGroupConfig.md)
+[**12. InstanceGroupConfig**](#InstanceGroupConfig)
 
-[**13. Configuration**](Configuration.md)
+[**13. Configuration**](#Configuration)
 
-[**14. BootstrapAction**](BootstrapAction.md)
+[**14. BootstrapAction**](#BootstrapAction)
         
-[**15. ScriptBootstrapAction**](ScriptBootstrapAction.md)
+[**15. ScriptBootstrapAction**](#ScriptBootstrapAction)
    
 <h3 name="ClusterConfig" id="ClusterConfig">1.ClusterConfig</h3>
 
