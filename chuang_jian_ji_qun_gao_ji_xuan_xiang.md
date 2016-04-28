@@ -12,7 +12,7 @@
   
    　　1. [集群基本信息](#ji_qun_ji_ben_xin_xi)
 
-   * [安全与访问](an_quan_yu_fang_wen.md)
+   　　2. [安全与访问](an_quan_yu_fang_wen.md)
 
    * [添加作业](tian_jia_zuoy_zy.md)
 
