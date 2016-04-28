@@ -388,8 +388,7 @@
 　　　　是否必须：否 
     
     
-     <h3 name="InstanceGroupStatus" id="InstanceGroupStatus">9.InstanceGroupStatus</h3> 
-
+  <h3 name="InstanceGroupStatus" id="InstanceGroupStatus">9.InstanceGroupStatus</h3> 
 
 ---
  
