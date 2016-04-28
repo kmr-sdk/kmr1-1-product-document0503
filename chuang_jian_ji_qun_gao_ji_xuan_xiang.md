@@ -55,8 +55,7 @@
 | **安装应用** | 选择KMR集群中需要安装的Hadoop周边生态应用。*注意，在集群创建完成后这些选项无法更改*|
 | **自定义参数** | 您可以通过此功能来自定义各类集群应用的参数配置（如core-site,hadoop-env等）,文本输入框中每一行都可以定义一个参数，注意（KMR不会对参数或者或者配置文件的正确性进行检查），自定义参数的格式为：<br>classification=<*配置文件名*>,properties=[<*配置项*>=<*值*>]<br>例如：<br>classification=mapred-site,properties=[mapred.tasktracker.map.tasks.maximum=4]<br>目前KMR支持以下配置文件的自定义参数（自定义参数时不需要输入文件扩展名）：<br>"core-site.xml"; "hdfs-site.xml"; "mapred-site.xml"; "yarn-site.xml"; "capacity-scheduler.xml"; "hadoop-env.sh"; "httpfs-env.sh"; "mapred-env.sh"; "yarn-env.sh";"log4j.properties"; "hive-env.sh"; "hive-site.xml"; "hive-exec-log4j.properties"; "hive-log4j.properties"; "spark-env.sh"; "spark-defaults.conf"; "log4j.properties"; "httpfs-site.xml" ;|
 
-
-### 安全与访问
+<h3 name="an_quan_yu_fang_wen" id="an_quan_yu_fang_wen">2.安全与访问</h3>
 
 　　1.设置集群网络
 
