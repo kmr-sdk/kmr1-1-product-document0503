@@ -426,8 +426,10 @@
 　　　　类型：InstanceStatus  （[InstanceStatus](InstanceStatus.md)）<br>
 　　　　是否必须：否
     
-    
-    ## InstanceStatus
+  <h3 name="InstanceStatus" id="InstanceStatus">10.InstanceStatus</h3> 
+
+---
+   
 
 　　**State**
   
@@ -436,8 +438,10 @@
 　　　　是否必须：否<br>
 　　　　合法值：PROVISIONING | RUNNING | RESIZING | TERMINATED
     
-    
-    ## InstanceGroupConfig
+   <h3 name="InstanceGroupConfig" id="InstanceGroupConfig">11.InstanceGroupConfig</h3> 
+
+---  
+
 
 　　**InstanceGroupType**
   
