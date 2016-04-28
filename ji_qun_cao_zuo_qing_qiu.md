@@ -296,7 +296,7 @@ Content-Length: xxx
 　　**Steps.member.N**
   
 　　　　自定义需要运行的作业列表。<br>
-　　　　类型：StepConfig列表 （[StepConfig](StepConfig.md)）<br>
+　　　　类型：StepConfig列表 （StepConfig）<br>
 　　　　是否必须：否
     
 　　**EnableEIP**
