@@ -13,7 +13,13 @@
 
 * [作业详情](#zuo_ye_xiang_qing)
 
+
+
 <h3 name="cha_kan_ji_qun_lie_biao" id="cha_kan_ji_qun_lie_biao">查看集群列表</h3>
+
+
+---
+
 
 　　集群创建完成后可以在集群列表中查看集群的基本信息，并对集群进行简单操作，集群列表会根据创建时间来排序
   
