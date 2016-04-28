@@ -61,8 +61,11 @@
 | X-Ksc-Date | 请求发出的时间，格式：<br>yyyyMMdd'T'HHmmss'Z'  | 是 |
 
 
+<h3 name="qian_ming_ji_zhi" id="qian_ming_ji_zhi">3.签名机制</h3>
 
-## 签名机制
+
+---
+
 
 
 　　发送给KMR服务的HTTP请求中，必须包含授权参数和其他公共参数。KMR服务使用用户的Access Key ID和Secret Access Key进行加密方式来验证请求者的身份。Access Key ID和Secret Access Key由金山云发给用户，Access Key ID作为用户的身份标识，Secret Access Key作为用户和服务器端进行签名计算的密钥。
