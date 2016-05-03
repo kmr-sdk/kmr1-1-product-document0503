@@ -25,7 +25,6 @@
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
    * [FAQ](faq.md)
 * [API参考手册](apican_kao_shou_ce.md)
-   * [简介](jian_jie.md)
    * [通用请求](tong_yong_qing_qiu.md)
    * [集群操作请求](ji_qun_cao_zuo_qing_qiu.md)
    * [作业操作请求](zuo_ye_cao_zuo_qing_qiu.md)
