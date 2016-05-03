@@ -7,7 +7,7 @@
    * [产品优势](chan_pin_you_shi.md)
    * [使用场景](shi_yong_chang_jing.md)
    * [快速入门](kuai_su_ru_men.md)
-* 使用手册
+* [使用手册](shi_yong_shou_ce.md)
    * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
    * [创建集群－快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
    * [创建集群－高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md)
