@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
 * [使用手册](README.md)
    * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
    * [创建集群－快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
