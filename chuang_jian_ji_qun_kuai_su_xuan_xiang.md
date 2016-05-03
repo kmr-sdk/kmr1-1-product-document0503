@@ -31,7 +31,7 @@
 
 　　3.配置集群节点
 
-![快速选项3](./images/ksxx3.png)
+![快速选项3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksxx3.png)
 
 | 字段 | 操作 |
 | -- | -- |
