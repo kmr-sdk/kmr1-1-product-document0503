@@ -69,7 +69,7 @@
 
 　　1.设置集群网络
 
-　　KMR服务依赖VPC（虚拟专有网络）以及子网、EndPoind等组件，在创建KMR集群时，会创建默认VPC和相关组件。如需创建自定义VPC，请点击“创建VPC”,参考金山云VPC产品相关文档，或者咨询技术支持。
+　　KMR服务依赖VPC（虚拟专有网络）以及子网、EndPoint等组件，在创建KMR集群时，会创建默认VPC和相关组件。如需创建自定义VPC，请点击“创建VPC”,参考金山云VPC产品相关文档，或者咨询技术支持。
   
   ![安全与访问1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/aqyfw1.png)
   
