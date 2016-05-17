@@ -29,7 +29,12 @@ sdk使用样例请参考：https://github.com/kmr-sdk/kmr-java-sample
     KSCMapReduceClient kmrClient = new KSCMapReduceClient(
 	    "<endpoint>", credential);
 
-说明：目前可用endpoint为 `kmr-cn-beijing.ksyun.com`
+说明：目前可用endpoint为
+
+　`•　北京地区：kmr.cn-beijing-6.api.ksyun.com`
+ 
+　`•　上海地区：kmr.cn-shanghai-2.api.ksyun.com`
+
 
 2、异步式客户端
 异步式客户端通过Java Future模式实现。异步式客户端调用KMR API时，客户端可以立即返回，去做其他事情，需要时再获取服务返回结果。
